@@ -1,3 +1,7 @@
 $(window).load(function(){
-	//$('pre').text($(this).html());
+	
+
+	$('pre').each(function(key, value){
+		$(this).text($(this).html());
+	});
 });

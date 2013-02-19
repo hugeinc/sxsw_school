@@ -530,6 +530,8 @@
   /* Initialization */
   
   function addPrettify() {
+  
+  
     var els = document.querySelectorAll('pre');
     for (var i = 0, el; el = els[i]; i++) {
       if (!el.classList.contains('noprettyprint')) {
@@ -593,11 +595,15 @@
   
   function handleDomLoaded() {
     slideEls = document.querySelectorAll('.slides > .slide');
+    
+
   
     setupFrames();
   
     addFontStyle();
     addGeneralStyle();
+    
+    
     addPrettify();
     addEventListeners();
   
