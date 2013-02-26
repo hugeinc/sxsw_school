@@ -1,0 +1,544 @@
+
+/* Fonts
+----------------------------------------------------------------------------- */
+
+@font-face: {
+	font-family: bevan;
+	src: url('fonts/bevan.ttf');
+}
+@font-face: {
+	font-family: sniglet;
+	src: url('fonts/sniglet.ttf');
+}
+
+
+
+
+/* Global Styles
+----------------------------------------------------------------------------- */
+
+body {
+	border-top: 5px #bc0505 solid;
+	color: #666666;
+}
+
+nav,
+header,
+h1,
+section,
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+
+
+
+
+
+
+/* Navigation
+----------------------------------------------------------------------------- */
+
+nav {
+	font-family: bevan, sans-serif;
+	height: 40px;
+	margin: 20px auto 70px;
+}
+
+nav li {
+	width: 20%;
+	float: left;
+}
+
+nav li a {
+	float: right;
+}
+
+nav a {
+	color: #000;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+/* Header
+----------------------------------------------------------------------------- */
+
+header {
+	background: url('../images/header-bg.jpg') no-repeat top left;
+	width: 1400px;
+	height: 777px;
+}
+
+h1 {
+	background: url('sprites/header.png') no-repeat top left;
+	width: 874px;
+	height: 178px;
+}
+
+h1 span {
+	display: none;
+}
+
+
+
+
+
+
+
+/* Section - Content
+----------------------------------------------------------------------------- */
+
+#content {
+	width: 1000px;
+	background: #f9f9f9;
+	padding: 0 200px 100px;
+}
+
+#content h2 {
+	position: relative;
+	top: -46px;
+	background: url('sprites/logo.png') no-repeat top left;
+	text-align: right;
+	font-family: bevan, sans-serif;
+	font-size: 26px;
+	color: #333;
+	padding-top: 165px;
+}
+#content h2 span {
+	display: block;
+	text-align: right;
+	font-size: 18px;
+	color: #d2d2d2;
+}
+
+.user-text {
+	float: left;
+	width: 670px;
+	
+	-moz-column-count: 2; /* Firefox */
+	-webkit-column-count: 2; /* Safari and Chrome */
+	column-count: 2;
+	
+	-moz-column-gap: 30px; /* Firefox */
+	-webkit-column-gap: 30px; /* Safari and Chrome */
+	column-gap: 30px;
+}
+
+#content img {
+	margin-left: 30px;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section - Menu
+----------------------------------------------------------------------------- */
+
+#menu-food {
+	margin: 50px auto 30px;
+	color: #000;
+	border-bottom: 2px #eaeaea solid;
+	padding: 20px 0 0;
+}
+
+#menu-food h3 {
+	margin: 0 auto 80px;
+}
+
+.menu {
+	text-align: center;
+}
+
+.menu h4 {
+	font-family: sniglet, sans-serif;
+	font-size: 38px;
+	color: #bc0505;
+	margin: 0 0 20px;
+	text-transform: uppercase;
+}
+
+.menu .column {
+	width: 216px;
+	margin: 0 60px;
+	float: left;
+}
+
+.menu ul {
+	margin: 0 0 50px;
+}
+
+.menu li {
+	font-family: bevan, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	margin: 0 0 15px;
+	color: #000;
+}
+.menu li span {
+	display: block;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+/* Section - Menu - BBQ
+----------------------------------------------------------------------------- */
+
+.menu-bbq {
+	width: 672px;
+	border-right: 2px #eaeaea solid;
+	float: left;
+}
+
+.menu-bbq h3 {
+	background: url('sprites/header-bbq.gif') no-repeat top left;
+	height: 84px;
+	width: 190px;
+	margin: 0 auto;
+}
+
+.menu-bbq h3 span {
+	display: none;
+}
+
+.menu-bbq ul:nth-child(2) {
+	height: 250px;
+}
+
+
+
+
+
+
+
+
+
+/* Section - Menu - Sides
+----------------------------------------------------------------------------- */
+
+.menu-sides {
+	float: left;
+	width: 326px;
+}
+
+.menu-sides h3 {
+	background: url('sprites/header-sides.gif') no-repeat top left;
+	height: 84px;
+	width: 203px;
+	margin: 0 auto;
+}
+
+.menu-sides h3 span {
+	display: none;
+}
+
+
+
+
+
+
+/* Section - Menu - Drinks
+----------------------------------------------------------------------------- */
+
+.specials {
+	background: #bc0505;
+	width: 300px;
+	padding: 35px 15px 15px;
+	height: 280px;
+	text-align: center;
+	float: left;
+}
+
+.specials h4 {
+	font-family: sniglet, sans-serif;
+	font-size: 38px;
+	color: #fff;
+}
+
+.specials li {
+	color: #fff;
+	font-family: bevan, sans-serif;
+	font-size: 22px;
+	margin: 0 0 10px;
+}
+
+.specials li.date {
+	font-family: arial, sans-serif;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+/* Section - Menu - Sides
+----------------------------------------------------------------------------- */
+
+.menu-drinks {
+	float: left;
+	width: 670px;
+}
+
+.menu-drinks h3 {
+	background: url('sprites/header-drinks.gif') no-repeat top left;
+	height: 51px;
+	width: 181px;
+	margin: 0 auto 40px;
+}
+
+.menu-drinks h3 span {
+	display: none;
+}
+
+.menu-drinks .column {
+	width: 335px;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Section - Google Maps
+----------------------------------------------------------------------------- */
+
+#google-maps {
+	margin-top: 100px;
+	height: 450px;
+	position: relative;
+	width: 100%;
+}
+
+#map_canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 450px;
+}
+
+#address {
+	position: relative;
+	top: 60px;
+	z-index: 2;
+	
+	background: #fff;
+	padding: 30px;
+	width: 340px;
+	height: 270px;
+	
+	float: right;
+	margin-right: 85px;
+	
+	-webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.2);
+	
+	font-size: 14px;
+}
+
+#address h3 {
+	background: url('sprites/header-address.gif') no-repeat top left;
+	height: 70px;
+	width: 342px;
+	margin: 0 auto 20px;
+}
+
+#address h3 span {
+	display: none;
+}
+
+#address hr {
+	margin: 10px auto;
+	width: 100px;
+	border: none;
+	border-top: 1px #eaeaea solid;
+}
+
+#address div {
+	line-height: 20px;
+	text-align: center;
+	margin: 0 0 20px;
+}
+
+#address p strong {
+	display: inline-block;
+	width: 155px;
+}
+
+#address a {
+	display: block;
+	float: left;
+	background: #bc0505;
+	width: 161px;
+	height: 41px;
+	bottom: 0;
+	margin: 33px 18px 0 0;
+	
+	font-family: bevan, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	line-height: 41px;
+}
+
+#address a:last-child {
+	margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Section - Instagram
+----------------------------------------------------------------------------- */
+
+#instagram {
+	background: #272727;
+	width: 100%;
+	padding: 100px 0 50px;
+}
+
+#instagram h2 {
+	font-family: sniglet, sans-serif;
+	font-size: 40px;
+	color: #fff;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 0 50px;
+}
+
+
+#instagram h2 {
+	
+}
+
+#instagram figure {
+	padding: 15px;
+	background: #fff;
+	float: left;
+	margin: 0 29px 30px 0;
+}
+#instagram figure:nth-child(4),
+#instagram figure:nth-child(7) {
+	margin-right: 0;
+}
+ 
+
+
+
+
+
+
+
+
+/* Section - Footer
+----------------------------------------------------------------------------- */
+
+footer {
+	color: #d56161;
+	background: #bc0505;
+	padding: 15px 0;
+	font-size: 14px;
+}
+
+footer p {
+	float: left;
+}
+
+footer nav {
+	font-family: arial, sans-serif;
+}
+
+footer ul {
+	float: right;
+}
+
+footer li {
+	float: left;
+	margin-left: 15px;
+	width: auto;
+}
+
+footer a {
+	font-size: 14px;
+	color: #d56161;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
