@@ -1,155 +1,227 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Get Schooled</title>
+<head>
+  <title>Get Schooled</title>
+  
+  <meta charset="utf-8">
+  
+  <!-- <script src="libs/js/prettify.js"></script> -->
+  <link rel="stylesheet" type="text/css" href="libs/css/slideshow.css" />
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=' + 'Open+Sans:regular,semibold,italic,italicsemibold|Droid+Sans+Mono" />
+  <script src="libs/js/slides.js"></script>
+  
+  <!-- references to custom stuff goes here. -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  
+</head>
 
-    <meta charset="utf-8">
-
-    <!-- <script src="libs/js/prettify.js"></script> -->
-    <link rel="stylesheet" type="text/css" href="libs/css/slideshow.css" />
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=' + 'Open+Sans:regular,semibold,italic,italicsemibold|Droid+Sans+Mono" />
-    <script src="libs/js/slides.js"></script>
-
-    <!-- references to custom stuff goes here. -->
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="js/script.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-
-  </head>
-
-  <body class="hidden">
-
-    <div class="slides layout-regular template-huge">
-        
-    	<div class="slide">
-      <h1 class="thin-pink-bottom-border">
-        Huge School
-      </h1>
-      <p class="smaller">4-day, intensive, Web Development course.</p>
-      <p class="smaller">March 9 - 12, 2013</p>
+<body class="hidden">
+  
+  <div class="slides layout-regular template-huge">
+  
+    <div class="slide">
+    <h1 class="thin-pink-bottom-border">
+    Huge School
+    </h1>
+    <p class="smaller">4-day, intensive, Web Development course.</p>
+    <p class="smaller">March 9 - 12, 2013</p>
+    </div>
+    
+    <div class="slide magenta invert white-border">
+    <h1 class="v-center bigger white">Get started.</h1>
+    </div>
+    
+    <div class="slide">
+    <h4>What is there to learn</h4>
+    <ul class="build">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Photoshop <small><strong>slicing!</strong></small></li>
+    </ul>
+    </div>
+    
+    <div class="slide">
+    <h4>HTML Concepts</h4>
+    <ul class="build">
+    <li>Doctypes</li>
+    <li>Syntax</li>
+    <li>Tags / self-closing</li>
+    <li>Semantic markup</li>
+    <li>Validation</li>
+    <li>more...</li>
+    </ul>
+    </div>
+    
+    <div class="slide">
+    <h4>HTML structure</h4>
+    <p>Tags to know:</p>
+    <pre>
+    <div>a block level container</div>
+    <span>an inline container</span>
+    <strong>This is used as bold</strong>
+    <h1>Headings from 1 to 6</h1>
+    <a href="#">Anchor tags are links</a>
+    <img src="#" alt="Alternate image text" title="Image title" />
+    <p>Paragraphs</p>
+    <p>Paragraphs</p>
+    <p>Paragraphs</p>
+    <p>Paragraphs</p>
+    <p>Paragraphs</p>
+    <p>Paragraphs</p>
+    <p>Paragraphs</p>
+    <p>Paragraphs</p>
+    <p>Paragraphs</p>
+    <p>Paragraphs</p>
+    <p>Paragraphs</p>
+    <p>Paragraphs</p>
+    <div>a block level container</div>
+    <span>an inline container</span>
+    <strong>This is used as bold</strong>
+    <h1>Headings from 1 to 6</h1>
+    <a href="#">Anchor tags are links</a>
+    <img src="#" alt="Alternate image text" title="Image title" />
+    </pre>
+    </div>
+    
+    <div class="slide">
+    <h4>CSS</h4>
+    <p>style declaration block</p>
+    <pre>
+    selector {
+    property-name: value;
+    }
+    selector {
+    property-name: value;
+    }
+    selector {
+    property-name: value;
+    }
+    selector {
+    property-name: value;
+    }
+    selector {
+    property-name: value;
+    }
+    selector {
+    property-name: value;
+    }</pre>
+    </div>
+    <div class="slide">
+    <p>CSS - a real world example</p>
+    <pre>
+    p {
+    font-size: 14px;
+    }</pre>
+    <p class="smaller">Things to note</p>
+    <ul class="smaller">
+    <li>property names</li>
+    <li>measurement units</li>
+    </ul>
+    </div>
+    
+    <div class="slide">
+    <h4>now for some JavaScript!</h4>
+    <pre>
+    
+    <script type="text/javascript">
+    //this is a comment
+    //your code goes here
+    </script>
+    
+    </pre>
+    more JavaScript:
+    <pre>
+    var variableName = 'bob';
+    
+    
+    
+    </pre>
+    </div>
+    
+    <!-- Begin ksex js slides -->
+    <div class="slide">
+      <h4>Keywords.</h4>
+      <p>AKA: Reserved words.</p>
+      <p>Words that have a defined meaning, and cannot be changed by the programmer.</p>
+      <ul>
+        <li>Indicates that the ECMA Spec designates "special behavior"</li>
+        <li>All statements, control statements, etc. are "keywords" or "reserved words".</li>
+      </ul>
     </div>
 
-    	<div class="slide magenta invert white-border">
-	    	<h1 class="v-center bigger white">Get started.</h1>
-	    </div>
-    	
-    	<div class="slide">
-    		<h4>What is there to learn</h4>
-    		<ul class="build">
-    			<li>HTML</li>
-    			<li>CSS</li>
-    			<li>JavaScript</li>
-    			<li>Photoshop <small><strong>slicing!</strong></small></li>
-    		</ul>
-    	</div>
-    	
-	    <div class="slide">
-	      <h4>HTML Concepts</h4>
-	      <ul class="build">
-	      	<li>Doctypes</li>
-	      	<li>Syntax</li>
-	      	<li>Tags / self-closing</li>
-	      	<li>Semantic markup</li>
-	      	<li>Validation</li>
-	      	<li>more...</li>
-	      </ul>
-	    </div>
+    <div class="slide">
+      <h4>Statements.</h4>
+      <p>Keywords + Syntax == Statement.</p>
+      <p>Let's start with something basic.</p>
+      <pre>
+var blah = foo;
+      </pre>
+      <ul>
+        <li><strong>var</strong> indicates that we are declaring a variable.</li>
+        <li><strong>blah</strong> is the name of the variable.</li>
+        <li><strong>=</strong> indicates that we are setting the variable to its initial value (OPTIONAL)</li>
+        <li><strong>foo</strong> is the initial value.</li>
+      </ul>
+    </div>
     
-	    <div class="slide">
-	      <h4>HTML structure</h4>
-	      <p>Tags to know:</p>
-	      <pre>
-<div>a block level container</div>
-<span>an inline container</span>
-<strong>This is used as bold</strong>
-<h1>Headings from 1 to 6</h1>
-<a href="#">Anchor tags are links</a>
-<img src="#" alt="Alternate image text" title="Image title" />
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<div>a block level container</div>
-<span>an inline container</span>
-<strong>This is used as bold</strong>
-<h1>Headings from 1 to 6</h1>
-<a href="#">Anchor tags are links</a>
-<img src="#" alt="Alternate image text" title="Image title" />
-</pre>
-	    </div>
-	    
-	    <div class="slide">
-	    	<h4>CSS</h4>
-	    	<p>style declaration block</p>
-	    	<pre>
-selector {
-	property-name: value;
+    <div class="slide">
+      <p>We can easily declare variables such as:</p>
+      <pre>var blah;</pre>
+      <p>or</p>
+      <pre>var blah = 3;</pre>
+      <p>or</p>
+      <pre>var blah = 'foo';</pre>
+    </div>
+    
+    <div class="slide">
+      <p>Open up a new html file and save it.</p>
+      <p>Type the following, save, and load in your browser:</p>
+      <pre><script type="text/javascript">var blah;</script></pre>
+      <p>Now in your console, type "blah" and hit enter.</p>
+      <p>Now change set "blah" to 3 and inspect it in the console again.</p>
+      <p>Now, type in something else, such as "foo", and inspect again.</p>
+      <h4>Failure to declare variables leads to unexpected results (and thus errors in strict mode).  Declare your variables!</h4>
+    </div>
+    
+    <div class="slide">
+      <h4>Back to statements ..</h4>
+      <p>Another basic statement is the "function" statement, which declares a function.<p>
+      <p class="smaller">A function is a type of statement that does something.</p>
+      <pre>
+function initialize(){
+  var blah = 5;
+  console.log(blah);
 }
-selector {
-	property-name: value;
+    </pre>
+    <p class="smaller">(this one just prints out the value of "blah" in console)</p>
+    <p>To call it, add this:</p>
+    <pre>initialize();</pre>
+    </div>    
+    
+    <div class="slide">
+      <pre>
+function initialize(){
+  var blah = 5;
+  for (i = 0; i++; i <= blah;) {
+    console.log(i);
+  }
 }
-selector {
-	property-name: value;
-}
-selector {
-	property-name: value;
-}
-selector {
-	property-name: value;
-}
-selector {
-	property-name: value;
-}</pre>
-	    </div>
-	    <div class="slide">
-	    	<p>CSS - a real world example</p>
-	    	<pre>
-p {
-	font-size: 14px;
-}</pre>
-		<p class="smaller">Things to note</p>
-	    <ul class="smaller">
-	    	<li>property names</li>
-	    	<li>measurement units</li>
-	    </ul>
-	    </div>
-	    
-	    <div class="slide">
-	    	<h4>now for some JavaScript!</h4>
-<pre>
-
-<script type="text/javascript">
-	//this is a comment
-	//your code goes here
-</script>
-
-</pre>
-more JavaScript:
-<pre>
-var variableName = 'bob';
-
-
-
-</pre>
-	    </div>
-	    
-	    <div class="slide black invert white-border">
-	    	<h1 class="v-center bigger white">Questions?</h1>
-	    </div>
-	    
-	    <div class="slide">
-	    	<h1 class="v-center bigger magenta">Done.</h1>
-	    </div>
-	    
-    </div> <!-- /slides -->
-  </body>
+    </pre>    
+    </div>
+    <!-- end ksex js slides -->
+    
+    <div class="slide black invert white-border">
+    <h1 class="v-center bigger white">Questions?</h1>
+    </div>
+    
+    <div class="slide">
+    <h1 class="v-center bigger magenta">Done.</h1>
+    </div>
+    
+  </div> <!-- /slides -->
+</body>
 </html>
 
