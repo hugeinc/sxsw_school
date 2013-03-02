@@ -60,21 +60,17 @@
 			<h1 class="v-center bigger white">HTML.</h1>
 		</div>
 		
-		<div class="slide">
-			<h4>HTML Concepts</h4>
-			<ul class="build">
-				<li>Doctypes</li>
-				<li>Syntax</li>
-				<li>Tags / self-closing</li>
-				<li>Semantic markup</li>
-				<li>Validation</li>
-				<li>more...</li>
-			</ul>
-		</div>
+		<?php include('slides_html/whatishtml.php') ?>
 		
+		<?php include('slides_html/semantics.php') ?>
 		
+		<?php include('slides_html/semantics_why.php') ?>
 		
+		<?php include('slides_html/forms.php') ?>
 		
+		<?php include('slides_html/forms_types.php') ?>
+		
+		<?php include('slides_html/scriptlinktags.php') ?>
 		
 		
 		
