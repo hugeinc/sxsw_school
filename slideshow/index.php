@@ -74,6 +74,39 @@
 		
 		
 		
+<?php 
+/* Slicing
+----------------------------------------------------------------------------------------------- */
+?>
+
+		<div class="slide magenta invert white-border">
+			<h1 class="v-center bigger white">Slicing.</h1>
+		</div>
+		
+		<?php include('slides_slicing/whatisslicing.php') ?>
+		
+		<?php include('slides_slicing/whatis_asset.php') ?>
+		
+		<?php include('slides_slicing/whatis_asset2.php') ?>
+		
+		<?php include('slides_slicing/whatis_asset3.php') ?>
+		
+		<?php include('slides_slicing/whatis_asset4.php') ?>
+		
+		<?php include('slides_slicing/whatis_asset5.php') ?>
+		
+		<?php include('slides_slicing/slicing-howto.php') ?>
+		
+		<?php include('slides_slicing/semantics_why.php') ?>
+		
+		<?php include('slides_slicing/forms.php') ?>
+		
+		<?php include('slides_slicing/forms_types.php') ?>
+		
+		<?php include('slides_slicing/scriptlinktags.php') ?>
+		
+		
+		
 		
 <?php 
 /* CSS
@@ -100,12 +133,38 @@
 
 		<?php include('slides_js/events.php') ?>
 		
+		<?php include('slides_js/events_common.php') ?>
+		
 		
 		
 <?php 
 /* Photoshop Slides
 ----------------------------------------------------------------------------------------------- */
-?>		
+?>
+
+
+
+
+<?php 
+/* Other
+----------------------------------------------------------------------------------------------- */
+?>
+
+		<?php include('slides_other/responsive.php') ?>
+		
+		<?php include('slides_other/progenh.php') ?>
+
+
+
+
+
+
+
+
+
+
+
+
 		
 		<div class="slide black invert white-border">
 		<h1 class="v-center bigger white">Questions?</h1>
