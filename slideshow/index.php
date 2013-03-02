@@ -261,6 +261,20 @@ if (blah == 5) {
 		</div>
 		<!-- end ksex js slides -->
 		
+		
+		
+
+		<?php include('slides_js/events.php') ?>
+		
+		
+		
+<?php 
+/* Photoshop Slides
+----------------------------------------------------------------------------------------------- */
+?>		
+		
+		
+		
 		<div class="slide black invert white-border">
 		<h1 class="v-center bigger white">Questions?</h1>
 		</div>
