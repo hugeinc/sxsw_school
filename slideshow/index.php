@@ -97,7 +97,7 @@
 		
 		<?php include('slides_slicing/slicing-howto.php') ?>
 		
-		<?php include('slides_slicing/semantics_why.php') ?>
+		<?php include('slides_slicing/semantics.php') ?>
 		
 		<?php include('slides_slicing/forms.php') ?>
 		
