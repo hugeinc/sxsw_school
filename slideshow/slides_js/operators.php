@@ -19,6 +19,18 @@
 			<h4>Important ones.</h4>
 			<h5>=</h5>
 			<p>Assignment operator.  Sets a variable to a value (including another variable, or function, etc.)</p>
-			<h5>
+			<h5>++</h5>
+			<p>Essentially, take whatever value (numeric) and add one.  Useful for iterating.</p>
+			<h5>==</h5>
+			<p>Equality.  If two values, variables, or objects are equivalent.</p>
 		</div>
 		
+		<div class="slide">
+			<h5>!</h5>
+			<p>Not.  For testing conditionals.</p>
+			<h5>&&</h5>
+			<p>"And".  For string two conditionals together.</p>
+			<p>ie, blah == true && blah !== false
+			<h5>||</h5>
+			<p>Or. For stringing two conditionals together, either of which can be true.</p>
+		</div>
