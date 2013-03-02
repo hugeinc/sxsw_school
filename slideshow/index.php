@@ -98,6 +98,8 @@
 
 		<?php include('slides_js/events.php') ?>
 		
+		<?php include('slides_js/events_common.php') ?>
+		
 		
 		
 <?php 
