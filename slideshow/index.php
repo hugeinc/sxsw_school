@@ -39,9 +39,9 @@
 			<h4>What we will cover in this course</h4>
 			<ul class="build">
 				<li>HTML</li>
+				<li>Photoshop <small><strong>slicing!</strong></small></li>
 				<li>CSS</li>
 				<li>JavaScript</li>
-				<li>Photoshop <small><strong>slicing!</strong></small></li>
 			</ul>
 		</div>
 		
