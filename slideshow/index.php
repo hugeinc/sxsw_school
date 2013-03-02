@@ -36,13 +36,28 @@
 		</div>
 		
 		<div class="slide">
-			<h4>What is there to learn</h4>
+			<h4>What we will cover in this course</h4>
 			<ul class="build">
 				<li>HTML</li>
 				<li>CSS</li>
 				<li>JavaScript</li>
 				<li>Photoshop <small><strong>slicing!</strong></small></li>
 			</ul>
+		</div>
+		
+		<?php include('slides_html/structure.php') ?>
+		
+		<?php include('slides_css/declaration.php') ?>
+
+		<?php include('slides_js/nowforjavascript.php') ?>		
+
+<?php 
+/* HTML
+----------------------------------------------------------------------------------------------- */
+?>
+
+		<div class="slide magenta invert white-border">
+			<h1 class="v-center bigger white">HTML.</h1>
 		</div>
 		
 		<div class="slide">
@@ -57,16 +72,35 @@
 			</ul>
 		</div>
 		
-		<?php include('slides_html/structure.php') ?>
 		
-		<?php include('slides_css/declaration.php') ?>
+		
+		
+		
+		
+		
+		
+<?php 
+/* CSS
+----------------------------------------------------------------------------------------------- */
+?>
+
+		<div class="slide magenta invert white-border">
+			<h1 class="v-center bigger white">CSS.</h1>
+		</div>
 
 		<?php include('slides_css/realworld.php') ?>
-
-		<?php include('slides_js/nowforjavascript.php') ?>		
-
 		
-		<!-- Begin ksex js slides -->
+		
+
+<?php 
+/* Javascript
+----------------------------------------------------------------------------------------------- */
+?>	
+		
+		<div class="slide magenta invert white-border">
+			<h1 class="v-center bigger white">Javascript.</h1>
+		</div>
+
 		
 		<div class="slide">
 			<h4>Operators.</h4>
