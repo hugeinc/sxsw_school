@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -55,91 +57,14 @@
 			</ul>
 		</div>
 		
-		<div class="slide">
-			<h4>HTML structure</h4>
-			<p>Tags to know:</p>
-			<pre>
-<div>a block level container</div>
-<span>an inline container</span>
-<strong>This is used as bold</strong>
-<h1>Headings from 1 to 6</h1>
-<a href="#">Anchor tags are links</a>
-<img src="#" alt="Alternate image text" title="Image title" />
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<p>Paragraphs</p>
-<div>a block level container</div>
-<span>an inline container</span>
-<strong>This is used as bold</strong>
-<h1>Headings from 1 to 6</h1>
-<a href="#">Anchor tags are links</a>
-<img src="#" alt="Alternate image text" title="Image title" />
-			</pre>
-		</div>
+		<?php include('slides_html/structure.php') ?>
 		
-		<div class="slide">
-			<h4>CSS</h4>
-			<p>style declaration block</p>
-<pre>
-selector {
-property-name: value;
-}
-selector {
-property-name: value;
-}
-selector {
-property-name: value;
-}
-selector {
-property-name: value;
-}
-selector {
-property-name: value;
-}
-selector {
-property-name: value;
-}</pre>
-		</div>
-		<div class="slide">
-			<p>CSS - a real world example</p>
-<pre>
-p {
-	font-size: 14px;
-}</pre>
-			<p class="smaller">Things to note</p>
-			<ul class="smaller">
-				<li>property names</li>
-				<li>measurement units</li>
-				</ul>
-		</div>
-		
-		<div class="slide">
-			<h4>now for some JavaScript!</h4>
-		<pre>
-		
-<script type="text/javascript">
-//this is a comment
-//your code goes here
-</script>
-		
-		</pre>
-		more JavaScript:
-		<pre>
-var variableName = 'bob';
+		<?php include('slides_css/declaration.php') ?>
 
+		<?php include('slides_css/realworld.php') ?>
 
+		<?php include('slides_js/nowforjavascript.php') ?>		
 
-		</pre>
-		</div>
 		
 		<!-- Begin ksex js slides -->
 		
