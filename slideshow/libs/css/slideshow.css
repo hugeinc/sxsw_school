@@ -417,6 +417,8 @@ pre {
   overflow-y: auto;
   overflow-x: auto;
   max-height: 400px;
+  
+  white-space: pre-wrap
 }
 
 code {
