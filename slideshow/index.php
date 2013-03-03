@@ -98,8 +98,6 @@
 		
 		<?php include('slides_slicing/slicing-howto.php') ?>
 		
-		<?php include('slides_slicing/semantics.php') ?>
-		
 		<?php include('slides_slicing/forms.php') ?>
 		
 		<?php include('slides_slicing/forms_types.php') ?>
@@ -123,6 +121,8 @@
 		<?php include('slides_css/declaration.php') ?>
 		
 		<?php include('slides_css/realworld.php') ?>
+		
+		<?php include('slides_css/atfontface.php') ?>
 		
 		
 

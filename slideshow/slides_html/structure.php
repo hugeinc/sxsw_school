@@ -59,12 +59,12 @@
 <pre class="structure full">
 &lt;!DOCTYPE html>
 &lt;html>
-	&lt;head>
+    &lt;head>
 		&lt;title>Holden's Hog Tie&lt;/title>
-	&lt;/head>
-	&lt;body>
-
-	&lt;/body>
+    &lt;/head>
+    &lt;body>
+        &lt;!-- main part of site goes here -->
+    &lt;/body>
 &lt;/html></pre>
 		</li>
 	</ul>
@@ -73,25 +73,25 @@
 
 
 <div class="slide">
-	<h4>More tags! <small>defining sections</small></h4>
+	<h4>Tags <small>defining sections</small></h4>
 	<ul class="build">
 		<li>
 <pre>
 <nav>
-	<ul>
-		<li><a href="#">About Holden's</a></li>
-			<li><a href="#">Menu</a></li>
-			<li><a href="#">Gallery</a></li>
-			<li><a href="#">Location</a></li>
-			<li><a href="#">Lorem Ipsum</a></li>
-	</ul>
+    <ul>
+        <li><a href="#">About Holden's</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Location</a></li>
+        <li><a href="#">Lorem Ipsum</a></li>
+    </ul>
 </nav>
 </pre>
 		</li>
 		<li>
 <pre>
 <header>
-	<h1><span>Holden's Hog Tie</span></h1>
+    <h1><span>Holden's Hog Tie</span></h1>
 </header>
 </pre>
 		</li>
@@ -100,7 +100,30 @@
 
 
 <div class="slide">
-	<h4>Even more tags! <small>elements on a page</small></h4>
+	<h4>More tags!</h4>
+	<ul>
+		<li>
+<pre>
+<footer class="clearfix">
+    <nav>
+        <p>Holden's Hog Tie, 50 E Cesar Chavez St, Austin, TX ˙ (500) 867-5309</p>
+        <ul>
+            <li><a href="#">About Holden's</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+        </ul>
+    </nav>
+</footer></pre>
+		</li>
+	</ul>	
+</div>
+
+<!--
+
+<div class="slide">
+	<h4>Even more tags!</h4>
 	<ul class="build">
 		<li>
 		Headings
@@ -111,5 +134,7 @@
 <pre><img src="images/cowboy.jpg" alt="Cowboy" width="202" height="201"></pre>
 		</li>
 	</ul>
-	
 </div>
+
+
+-->
