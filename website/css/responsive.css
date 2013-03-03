@@ -1,0 +1,162 @@
+/* Header
+----------------------------------------------------------------------------- */
+
+nav {
+	width: 80%;
+}
+
+nav li {
+	text-align: center;
+}
+
+nav li a {
+	float: none;
+}
+
+header {
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+}
+
+/* Screens smaller than the h1 image breakpoint
+----------------------------------------------------------------------------- */
+
+@media screen and (max-width: 874px) {
+	h1 {
+		background: none;
+	}
+	
+	header {
+		background: none;
+		height: 0px;
+	}
+	
+}
+
+/* Large devices breakpoint
+----------------------------------------------------------------------------- */
+
+@media screen and (max-width: 797px) {
+	/* Update global areas for smaller screens */
+		
+	#content,
+	#menu-food,
+	#menu-drinks,
+	#google-maps {
+		width: 90%;
+		padding: 0px 5% 5%;
+	}
+	
+	#instagram {
+		width: 100%;
+		padding: 0px 0px 0px 0px;
+	} 
+	
+	.wrapper {
+		width: 90%;
+	}
+	
+	/* Update nav and header for smaller screens */
+	nav {
+		margin: 20px auto 20px;
+	}
+	nav li a {
+		font-size: 12px;
+	}
+
+	#content h2 {
+		top: 10px;
+		padding-top: 225px;
+		margin-bottom: 20px;
+	}
+	#content img {
+		display: none;
+		float: none;
+	}
+	
+	.user-text {
+		width: 100%;
+	}
+	
+	/* Reflow the menus */
+	
+	.menu-bbq {
+		width: 60%;
+	}
+	
+	.menu .column {
+		width: 40%;
+		margin: 4%;
+	}
+	
+	.menu-sides {
+		width: 35%;
+		margin-left: 4%;
+	}
+	
+	.specials {
+		width: 30%;
+		margin-right: 4%;
+	}
+	
+	#map_canvas {
+		display: none;
+		width: 0px;
+		height; 0px;
+	}
+	
+	.menu-drinks {
+		width: 60%;
+	}
+	
+	#google-maps {
+		margin-top: 0px;
+	}
+	
+	#instagram figure {
+		margin: 0px 10px 10px;
+	}
+	
+	#instagram figure:nth-child(4),
+	#instagram figure:nth-child(7) {
+		margin-right: 10px;
+	}
+	
+	footer p {
+		float: right;
+	}
+	
+	/* Change some font sizes */
+	
+	#menu-food h3 {
+		margin: 0 auto 20px;
+	}
+	.menu h4 {
+		font-size: 24px;
+	}
+	
+	.menu li {
+		font-size: 16px;
+		margin: 0px 0px 6px;
+	}
+	
+	#instagram h2 {
+		font-size: 24px;
+		margin: 0px;
+		padding: 20px 0px;
+	}
+
+}
+
+/* Small devices breakpoint
+----------------------------------------------------------------------------- */
+
+@media screen and (max-width: 480px) {
+
+	.user-text {
+		-moz-column-count: 1; /* Firefox */
+		-webkit-column-count: 1; /* Safari and Chrome */
+		column-count: 1;
+	}
+}
