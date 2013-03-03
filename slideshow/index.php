@@ -39,17 +39,16 @@
 			<h4>What we will cover in this course</h4>
 			<ul class="build">
 				<li>HTML</li>
+				<li>Photoshop <small><strong>slicing!</strong></small></li>
 				<li>CSS</li>
 				<li>JavaScript</li>
-				<li>Photoshop <small><strong>slicing!</strong></small></li>
 			</ul>
 		</div>
 		
-		<?php include('slides_html/structure.php') ?>
 		
-		<?php include('slides_css/declaration.php') ?>
+		
 
-		<?php include('slides_js/nowforjavascript.php') ?>		
+		
 
 <?php 
 /* HTML
@@ -61,6 +60,8 @@
 		</div>
 		
 		<?php include('slides_html/whatishtml.php') ?>
+		
+		<?php include('slides_html/structure.php') ?>
 		
 		<?php include('slides_html/semantics.php') ?>
 		
@@ -113,10 +114,14 @@
 ----------------------------------------------------------------------------------------------- */
 ?>
 
+		
+	
 		<div class="slide magenta invert white-border">
 			<h1 class="v-center bigger white">CSS.</h1>
 		</div>
 
+		<?php include('slides_css/declaration.php') ?>
+		
 		<?php include('slides_css/realworld.php') ?>
 
 		<?php include('slides_css/selectors.php') ?>
@@ -128,6 +133,20 @@
 ----------------------------------------------------------------------------------------------- */
 ?>
 		<?php include('slides_js/operators.php') ?>
+
+		<?php include('slides_js/nowforjavascript.php') ?>		
+		
+		<div class="slide">
+			<h4>Operators.</h4>
+			<p>Similar to math operands, operators let you "assign" values, add, subtract, etc.</p>
+			<p>Many types of operators, including:</p>
+			<ul>
+				<li>Arithmetic (ie, +, -, %, ++, --)</li>
+				<li>Assignment (ie, =, *=, -=)</li>
+				<li>Comparison (ie, ==, !=, >)</li>
+				<li>Logical (&&, ||, !)</li>
+				<li>String (+ and +=)</li>
+		</div>
 
 		<?php include('slides_js/types.php') ?>
 
