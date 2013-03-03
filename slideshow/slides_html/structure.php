@@ -56,7 +56,7 @@
 	<h4>What every page needs</h4>
 	<ul class="no-bullet">
 		<li>
-<pre class="structure">
+<pre class="structure full">
 &lt;!DOCTYPE html>
 &lt;html>
 	&lt;head>
@@ -68,7 +68,7 @@
 &lt;/html></pre>
 		</li>
 	</ul>
-
+	<small class="demo magenta">( demo )</small>
 </div>
 
 
@@ -80,10 +80,10 @@
 <nav>
 	<ul>
 		<li><a href="#">About Holden's</a></li>
-		<li><a href="#">Menu</a></li>
-		<li><a href="#">Gallery</a></li>
-		<li><a href="#">Location</a></li>
-		<li><a href="#">Lorem Ipsum</a></li>
+			<li><a href="#">Menu</a></li>
+			<li><a href="#">Gallery</a></li>
+			<li><a href="#">Location</a></li>
+			<li><a href="#">Lorem Ipsum</a></li>
 	</ul>
 </nav>
 </pre>
@@ -104,7 +104,7 @@
 	<ul class="build">
 		<li>
 		Headings
-<pre><h2>"No pork butts about it; The Best BBQ in Austin."<span>-Your Mom</span></h2></pre>
+<pre class=""><h2>"No pork butts about it; The Best BBQ in Austin."<span>-Your Mom</span></h2></pre>
 		</li>
 		<li>
 		Self closing tags

@@ -5,5 +5,9 @@ $(window).load(function(){
 		if(!$(value).hasClass('structure')){
 			$(this).text($(this).html());	
 		}
+		
 	});
+	
+	
+	
 });
