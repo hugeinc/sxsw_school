@@ -10,15 +10,28 @@
 		<li>Attributes</li>
 		<li>Attribute values</li>
 	</ul>
+	<ul class="build">
+		<li>
+<pre class="structure">
+&lt;html> &lt;/html></pre>
+		</li>
+		<li>
+<pre> <a> Anchor Tag </a> </pre>
+		</li>
+		<li>
+		Adding an attribute:
+<pre class="structure"> &lt;a <strong>href="http://www.hugeinc.com"</strong>> Anchor Tag &lt;/a> </pre>
+		</li>
+	</ul>
 </div>
 
 <!-- types of tags -->
 <div class="slide">
 	<h4>Types of tags</h4>
 	<ul class="">
-		<li>Overall page structure</li>
-		<li>Define sections of a page</li>
-		<li>Elements on a page</li>
+		<li>Tags can define the general page structure</li>
+		<li>Tags can define sections of a page</li>
+		<li>Tags can define elements on a page</li>
 	</ul>
 </div>
 
@@ -36,56 +49,92 @@
 	</ul>
 </div>
 
-<!-- tag structure -->
-<div class="slide">
-	<h4>Writing tags</h4>
-	<ul class="build">
-		<li>Open and close</li>
-		<li>
-<pre class="structure">
-&lt;html> &lt;/html></pre>
-		</li>
-		<li>
-<pre class="structure">
-&lt;body> &lt;/body></pre>
-		</li>
-		<li>
-<pre class="structure">&lt;div> &lt;/div></pre>
-		</li>
-	</ul>
-</div>
+
 
 
 <div class="slide">
 	<h4>What every page needs</h4>
 	<ul class="no-bullet">
 		<li>
-<pre class="structure">
+<pre class="structure full">
 &lt;!DOCTYPE html>
 &lt;html>
-	&lt;head>
-		&lt;title>Hello World Title&lt;/title>
-	&lt;/head>
-	&lt;body>
-		Hello World.
-	&lt;/body>
+    &lt;head>
+		&lt;title>Holden's Hog Tie&lt;/title>
+    &lt;/head>
+    &lt;body>
+        &lt;!-- main part of site goes here -->
+    &lt;/body>
 &lt;/html></pre>
 		</li>
 	</ul>
-
+	<small class="demo magenta">( demo )</small>
 </div>
 
 
 <div class="slide">
-	<h4>More tags! <small>defining sections</small></h4>
+	<h4>Tags <small>defining sections</small></h4>
+	<ul class="build">
+		<li>
 <pre>
-<nav> contains navigational items </nav>
-
-<header> contains section headings </header>
-
-<section> contains a section </section>
-
-<div> block level </div>
-<span> inline level </span>
+<nav>
+    <ul>
+        <li><a href="#">About Holden's</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Location</a></li>
+        <li><a href="#">Lorem Ipsum</a></li>
+    </ul>
+</nav>
 </pre>
+		</li>
+		<li>
+<pre>
+<header>
+    <h1><span>Holden's Hog Tie</span></h1>
+</header>
+</pre>
+		</li>
+	</ul>
 </div>
+
+
+<div class="slide">
+	<h4>More tags!</h4>
+	<ul>
+		<li>
+<pre>
+<footer class="clearfix">
+    <nav>
+        <p>Holden's Hog Tie, 50 E Cesar Chavez St, Austin, TX ˙ (500) 867-5309</p>
+        <ul>
+            <li><a href="#">About Holden's</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Lorem Ipsum</a></li>
+        </ul>
+    </nav>
+</footer></pre>
+		</li>
+	</ul>	
+</div>
+
+<!--
+
+<div class="slide">
+	<h4>Even more tags!</h4>
+	<ul class="build">
+		<li>
+		Headings
+<pre class=""><h2>"No pork butts about it; The Best BBQ in Austin."<span>-Your Mom</span></h2></pre>
+		</li>
+		<li>
+		Self closing tags
+<pre><img src="images/cowboy.jpg" alt="Cowboy" width="202" height="201"></pre>
+		</li>
+	</ul>
+</div>
+
+
+-->

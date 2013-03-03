@@ -417,8 +417,13 @@ pre {
   overflow-y: auto;
   overflow-x: auto;
   max-height: 400px;
+  
+  white-space: pre-wrap
 }
 
+pre.full{
+	height: 700px;
+}
 code {
   font-size: 95%;
   font-family: 'Droid Sans Mono', 'Courier New', monospace;
@@ -616,3 +621,13 @@ div.author::before {
 .prettyprint .var { /* a declaration; a variable name */
   color: rgb(127, 0, 127);
 }  
+
+
+.demo {
+	font-size: 11px;
+	font-weight: bold;
+}
+.magentabg{
+	background-color: #ED228E;
+	color: #fff;
+}
