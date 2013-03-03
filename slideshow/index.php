@@ -85,6 +85,8 @@
 		</div>
 
 		<?php include('slides_css/realworld.php') ?>
+
+		<?php include('slides_css/selectors.php') ?>
 		
 		
 
