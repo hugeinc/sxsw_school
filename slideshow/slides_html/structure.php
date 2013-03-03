@@ -10,7 +10,7 @@
 		<li>Attributes</li>
 		<li>Attribute values</li>
 	</ul>
-	<ul class="build">
+	<ul class="build no-bullet">
 		<li>
 <pre class="structure">
 &lt;html> &lt;/html></pre>
@@ -56,7 +56,7 @@
 	<h4>What every page needs</h4>
 	<ul class="no-bullet">
 		<li>
-<pre class="structure full">
+<pre class="structure">
 &lt;!DOCTYPE html>
 &lt;html>
     &lt;head>
@@ -74,7 +74,7 @@
 
 <div class="slide">
 	<h4>Tags <small>defining sections</small></h4>
-	<ul class="build">
+	<ul class="build no-bullet">
 		<li>
 <pre>
 <nav>
@@ -101,7 +101,7 @@
 
 <div class="slide">
 	<h4>More tags!</h4>
-	<ul>
+	<ul class="no-bullet">
 		<li>
 <pre>
 <footer class="clearfix">
@@ -127,7 +127,7 @@
 	<ul class="build">
 		<li>
 		Headings
-<pre class=""><h2>"No pork butts about it; The Best BBQ in Austin."<span>-Your Mom</span></h2></pre>
+<pre class=""><h2>"No pork butts about it; The Best BBQ in Austin."<span>-Your Mom</span></h2></pre>
 		</li>
 		<li>
 		Self closing tags

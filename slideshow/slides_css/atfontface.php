@@ -4,15 +4,14 @@
 		<li>
 			<strong>@font-face</strong> Allows you to use specific fonts
 		</li>
-		<li>
+		<li class="no-bullet">
 <pre class="structure">
 @font-face: {
 	font-family: <strong>bevan</strong>;
 	src: url('fonts/bevan.ttf');
 }
 </pre>
-		</li>
-		<li>
+		<li class="no-bullet">
 <pre class="structure">
 nav {
 	<strong>font-family: bevan, sans-serif;</strong>

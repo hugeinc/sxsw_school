@@ -114,8 +114,19 @@ body {
 }
 
 .no-bullet{
-	list-style: none;
+	list-style-type:none;
+	margin-left: 0px;
 }
+
+.no-bullet li::before{
+	 content: none;
+	 list-style-type:none;
+ }
+ 
+ .no-bullet::before{
+	 content: none;
+	 list-style-type:none;
+ }
 
 .no-bullet li{
 	list-style: none;
