@@ -45,11 +45,10 @@
 			</ul>
 		</div>
 		
-		<?php include('slides_html/structure.php') ?>
 		
-		<?php include('slides_css/declaration.php') ?>
+		
 
-		<?php include('slides_js/nowforjavascript.php') ?>		
+		
 
 <?php 
 /* HTML
@@ -61,6 +60,8 @@
 		</div>
 		
 		<?php include('slides_html/whatishtml.php') ?>
+		
+		<?php include('slides_html/structure.php') ?>
 		
 		<?php include('slides_html/semantics.php') ?>
 		
@@ -80,10 +81,14 @@
 ----------------------------------------------------------------------------------------------- */
 ?>
 
+		
+	
 		<div class="slide magenta invert white-border">
 			<h1 class="v-center bigger white">CSS.</h1>
 		</div>
 
+		<?php include('slides_css/declaration.php') ?>
+		
 		<?php include('slides_css/realworld.php') ?>
 		
 		
@@ -97,6 +102,7 @@
 			<h1 class="v-center bigger white">Javascript.</h1>
 		</div>
 
+		<?php include('slides_js/nowforjavascript.php') ?>		
 		
 		<div class="slide">
 			<h4>Operators.</h4>

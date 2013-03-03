@@ -113,6 +113,13 @@ body {
   background-position-x: 0, 840px;
 }
 
+.no-bullet{
+	list-style: none;
+}
+
+.no-bullet li{
+	list-style: none;
+}
 /* Clickable/tappable areas */
 
 .slide-area {
