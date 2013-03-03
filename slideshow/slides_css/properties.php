@@ -47,3 +47,13 @@ header {
 	</ul>
 </div>
 
+<div class="slide">
+<pre>
+footer {
+    color: #d56161;
+    background: #bc0505;
+    padding: 15px 0;
+    font-size: 14px;
+}
+</pre>
+</div>

@@ -16,11 +16,11 @@
 &lt;html> &lt;/html></pre>
 		</li>
 		<li>
-<pre> <a> Anchor Tag </a> </pre>
+<pre><a> Anchor Tag </a> </pre>
 		</li>
 		<li>
 		Adding an attribute:
-<pre class="structure"> &lt;a <strong>href="http://www.hugeinc.com"</strong>> Anchor Tag &lt;/a> </pre>
+<pre class="structure">&lt;a <strong>href="http://www.hugeinc.com"</strong>> Anchor Tag &lt;/a> </pre>
 		</li>
 	</ul>
 </div>
