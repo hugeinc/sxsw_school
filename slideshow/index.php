@@ -98,11 +98,26 @@
 		
 		<?php include('slides_slicing/slicing-howto.php') ?>
 		
-		<?php include('slides_slicing/forms.php') ?>
+		<?php include('slides_slicing/image_types.php') ?>
 		
-		<?php include('slides_slicing/forms_types.php') ?>
+		<?php include('slides_slicing/file_size.php') ?>
 		
-		<?php include('slides_slicing/scriptlinktags.php') ?>
+		<?php include('slides_slicing/image_types_asset.php') ?>
+		
+		<?php include('slides_slicing/image_types_asset2.php') ?>
+		
+		<?php include('slides_slicing/image_types_asset3.php') ?>
+		
+		<?php include('slides_slicing/image_types_asset4.php') ?>
+		
+		<?php include('slides_slicing/image_types_asset5.php') ?>
+		
+		<?php include('slides_slicing/save_for_web_features.php') ?>
+		
+		<?php include('slides_slicing/save_for_web.php') ?>
+		
+		<?php include('slides_slicing/file_naming.php') ?>
+
 		
 		
 		
