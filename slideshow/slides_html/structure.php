@@ -78,7 +78,14 @@
 
 <div class="slide">
 	<h4>More tags! <small>defining sections</small></h4>
-	<ul>
-		<li></li>
-	</ul>
+<pre>
+<nav> contains navigational items </nav>
+
+<header> contains section headings </header>
+
+<section> contains a section </section>
+
+<div> block level </div>
+<span> inline level </span>
+</pre>
 </div>
