@@ -3,12 +3,14 @@
 ----------------------------------------------------------------------------- */
 
 @font-face: {
-	font-family: bevan;
-	src: url('fonts/bevan.ttf');
+	font-family: 'bevan';
+	src: url('fonts/bevan.eof');
+	src: local('bevan'), url('fonts/bevan.ttf') format('truetype');
 }
 @font-face: {
-	font-family: sniglet;
-	src: url('fonts/sniglet.ttf');
+	font-family: 'sniglet';
+	src: url('fonts/sniglet.eof');
+	src: local('sniglet'), url('fonts/sniglet.ttf') format('truetype');
 }
 
 

@@ -73,7 +73,30 @@
 		
 		<?php include('slides_html/scriptlinktags.php') ?>
 		
+
 		
+		
+<?php 
+/* CSS
+----------------------------------------------------------------------------------------------- */
+?>
+
+		
+	
+		<div class="slide magenta invert white-border">
+			<h1 class="v-center bigger white">CSS.</h1>
+		</div>
+
+		<?php include('slides_css/declaration.php') ?>
+		
+		<?php include('slides_css/properties.php') ?>
+		
+		<?php include('slides_css/atfontface.php') ?>
+
+		<?php include('slides_css/media_queries.php') ?>
+
+
+	
 		
 <?php 
 /* Slicing
@@ -118,29 +141,7 @@
 		
 		<?php include('slides_slicing/file_naming.php') ?>
 
-		
-		
-		
-		
-<?php 
-/* CSS
------------------------------------------------------------------------------------------------ */
-?>
-
-		
 	
-		<div class="slide magenta invert white-border">
-			<h1 class="v-center bigger white">CSS.</h1>
-		</div>
-
-		<?php include('slides_css/declaration.php') ?>
-		
-		<?php include('slides_css/properties.php') ?>
-		
-		<?php include('slides_css/atfontface.php') ?>
-
-		<?php include('slides_css/media_queries.php') ?>
-		
 		
 
 <?php 
@@ -158,14 +159,6 @@
 		<?php include('slides_js/events.php') ?>
 		
 		<?php include('slides_js/events_common.php') ?>
-		
-		
-		
-<?php 
-/* Photoshop Slides
------------------------------------------------------------------------------------------------ */
-?>
-
 
 
 
