@@ -19,10 +19,12 @@ header {
 	width: 100%;
 }
 
-/* Screens smaller than the h1 image breakpoint
+
+/* Large devices breakpoint
 ----------------------------------------------------------------------------- */
 
 @media screen and (max-width: 874px) {
+	/* Update global areas for smaller screens */
 	h1 {
 		background: none;
 	}
@@ -31,15 +33,7 @@ header {
 		background: none;
 		height: 0px;
 	}
-	
-}
-
-/* Large devices breakpoint
------------------------------------------------------------------------------ */
-
-@media screen and (max-width: 797px) {
-	/* Update global areas for smaller screens */
-		
+			
 	#content,
 	#menu-food,
 	#menu-drinks,
@@ -61,6 +55,7 @@ header {
 	nav {
 		margin: 20px auto 20px;
 	}
+	
 	nav li a {
 		font-size: 12px;
 	}
@@ -70,6 +65,7 @@ header {
 		padding-top: 225px;
 		margin-bottom: 20px;
 	}
+	
 	#content img {
 		display: none;
 		float: none;
@@ -136,6 +132,7 @@ header {
 	#menu-food h3 {
 		margin: 0 auto 20px;
 	}
+	
 	.menu h4 {
 		font-size: 24px;
 	}
