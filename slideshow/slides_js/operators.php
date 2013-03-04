@@ -1,7 +1,4 @@
-		
-		<div class="slide magenta invert white-border">
-			<h1 class="v-center bigger white">Javascript.</h1>
-		</div>
+
 		
 		<div class="slide">
 			<h4>Operators.</h4>
