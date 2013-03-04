@@ -37,7 +37,7 @@
 	.menu-bbq {
 		width: 100%;
 		float: left;
-	}
+}
 </pre>
 	<p>Targets all screens (including browser) that are smaller than 480px.</p>
 	<p>Useful for phones or smaller tablets.</p>
