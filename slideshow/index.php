@@ -140,6 +140,8 @@
 		<?php include('slides_css/selectors.php') ?>
 		
 		<?php include('slides_css/atfontface.php') ?>
+
+		<?php include('slides_css/media_queries.php') ?>
 		
 		
 
@@ -147,21 +149,9 @@
 /* Javascript
 ----------------------------------------------------------------------------------------------- */
 ?>
-		<?php include('slides_js/operators.php') ?>
+		<?php include('slides_js/intro.php') ?>
 
-		<?php include('slides_js/nowforjavascript.php') ?>		
-		
-		<div class="slide">
-			<h4>Operators.</h4>
-			<p>Similar to math operands, operators let you "assign" values, add, subtract, etc.</p>
-			<p>Many types of operators, including:</p>
-			<ul>
-				<li>Arithmetic (ie, +, -, %, ++, --)</li>
-				<li>Assignment (ie, =, *=, -=)</li>
-				<li>Comparison (ie, ==, !=, >)</li>
-				<li>Logical (&&, ||, !)</li>
-				<li>String (+ and +=)</li>
-		</div>
+		<?php include('slides_js/operators.php') ?>
 
 		<?php include('slides_js/types.php') ?>
 

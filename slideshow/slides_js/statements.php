@@ -74,6 +74,32 @@ function initialize(){
 		</div>
 		
 		<div class="slide">
+			<h4>Conditional Statements.</h4>
+			<p><strong>if</strong></p>
+			<p>If such and such is true, do something!</p>
+<pre>
+var blah = 5;
+if (blah == 5) {
+	console.log('true!');
+}    
+</pre>
+		</div>
+		
+		<div class="slide">
+			<p><strong>if ... else</strong></p>
+			<p>Similar to an if statement, but also does something if the condition is false.</p>
+<pre>
+var blah = 5;
+if (blah == 5) {
+	console.log('true!');
+} else {
+	console.log('false =(');
+}      
+</pre>
+			<p>You can also do an <strong>if else if</strong> with a separate condition.</p>
+		</div>		
+		
+		<div class="slide">
 			<h4>Loop Statements.</h4>
 			<p>A type of statement, which starts a "loop".  Basically, something that evaluates until whatever conditions you give it return false.</p>
 			<p>In our previous example, we are printing out the value of "i" until i <= blah returns false. </p>
@@ -115,29 +141,4 @@ while (i <= blah) {
 			<p><strong>while</strong>, the conditions are first, so it may never execute.</p>
 			<p><strong>for</strong> loop, indicates that we are doing something "generative" in our conditions (in this case, adding one each time)</p>
 		</div>
-		
-		<div class="slide">
-			<h4>Conditional Statements.</h4>
-			<p><strong>if</strong></p>
-			<p>If such and such is true, do something!</p>
-<pre>
-var blah = 5;
-if (blah == 5) {
-	console.log('true!');
-}    
-</pre>
-		</div>
-		
-		<div class="slide">
-			<p><strong>if ... else</strong></p>
-			<p>Similar to an if statement, but also does something if the condition is false.</p>
-<pre>
-var blah = 5;
-if (blah == 5) {
-	console.log('true!');
-} else {
-	console.log('false =(');
-}      
-</pre>
-			<p>You can also do an <strong>if else if</strong> with a separate condition.</p>
-		</div>
+
