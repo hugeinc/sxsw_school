@@ -7,14 +7,14 @@
 		<li class="no-bullet">
 <pre class="structure">
 @font-face: {
-	font-family: <strong>bevan</strong>;
-	src: url('fonts/bevan.ttf');
+    font-family: <strong>bevan</strong>;
+    src: url('fonts/bevan.ttf');
 }
 </pre>
 		<li class="no-bullet">
 <pre class="structure">
 nav {
-	<strong>font-family: bevan, sans-serif;</strong>
+    <strong>font-family: bevan, sans-serif;</strong>
 }</pre>
 		</li>
 	</ul>
