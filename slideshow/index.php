@@ -135,9 +135,9 @@
 
 		<?php include('slides_css/declaration.php') ?>
 		
-		<?php include('slides_css/realworld.php') ?>
-
 		<?php include('slides_css/selectors.php') ?>
+
+		<?php include('slides_css/properties.php') ?>
 		
 		<?php include('slides_css/atfontface.php') ?>
 
