@@ -4,7 +4,7 @@
 			<p>AKA: Reserved words.</p>
 			<p>Words that have a defined meaning, and cannot be changed by the programmer.</p>
 			<ul>
-				<li>Indicates that the ECMA Spec designates "special behavior"</li>
+				<li>Designates "special behavior"</li>
 				<li>All statements, control statements, etc. are "keywords" or "reserved words".</li>
 			</ul>
 		</div>
@@ -12,24 +12,29 @@
 		<div class="slide">
 			<h4>Statements.</h4>
 			<h5>Keywords + Syntax == Statement.</h5>
+			<p class="smaller">Meaning, a mix of a key word, and the proper spacing, braces, expressions, semicolons, etc., to create a "statement" of <strong>what you want to do</strong> in your javascript.</p>
 			<p>Let's start with something basic.</p>
 <pre>
-var blah = foo;
+var blah = 'foo';
 </pre>
+		</div>
+		
+		<div class="slide">
 			<ul>
 				<li><strong>var</strong> indicates that we are declaring a variable.</li>
 				<li><strong>blah</strong> is the name of the variable.</li>
 				<li><strong>=</strong> indicates that we are setting the variable to its initial value (OPTIONAL)</li>
 				<li><strong>foo</strong> is the initial value.</li>
-			</ul>
+			</ul>		
+			<p>Thus, our "statement" means that we want to create a variable named blah, and set its value to the string 'foo'.</p>
 		</div>
 		
 		<div class="slide">
 			<p>We can easily declare variables such as:</p>
 <pre>var blah;</pre>
-			<p>or</p>
+			<p>or a number</p>
 <pre>var blah = 3;</pre>
-			<p>or</p>
+			<p>or a string</p>
 <pre>var blah = 'foo';</pre>
 		</div>
 		
