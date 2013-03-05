@@ -133,8 +133,6 @@
 		
 		<?php include('slides_slicing/image_types.php') ?>
 		
-		<?php include('slides_slicing/file_size.php') ?>
-		
 		<?php include('slides_slicing/image_types_asset.php') ?>
 		
 		<?php include('slides_slicing/image_types_asset2.php') ?>
@@ -144,6 +142,8 @@
 		<?php include('slides_slicing/image_types_asset4.php') ?>
 		
 		<?php include('slides_slicing/image_types_asset5.php') ?>
+		
+		<?php include('slides_slicing/file_size.php') ?>
 		
 		<?php include('slides_slicing/save_for_web_features.php') ?>
 		
