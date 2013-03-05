@@ -1,4 +1,8 @@
 
+		<div class="slide green invert white-border">
+			<h1 class="v-center bigger white">Data Types.</h1>
+		</div>
+		
 		<div class="slide">
 			<h4>Types.</h4>
 			<p>In javascript, various kinds of variables are known as "types".  These types indicate what kind of value a variable or property can hold.</p>
@@ -37,6 +41,21 @@ things.push('cars', 'planes', 'trains', 2);
 console.log(things);
 console.log(things.length);
 </pre>
+		</div>
+		
+		<div class="slide">
+			<h4>Array properties.</h4>
+			<ul class="build">
+				<li>Integer-based keys.</li>
+				<li>Length.</li>
+			</ul>
+			<h4>Array methods.</h4>
+			<ul class="build">
+				<li>push.  Add to an array.</li>
+				<li>pop.  Remove the last element from array.</li>
+				<li>sort, reverse, splice...</li>
+				<li>forEach.  Call a function for each element.</li>
+			</ul>
 		</div>
 		
 		<div class="slide">

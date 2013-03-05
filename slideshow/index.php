@@ -160,9 +160,9 @@
 ?>
 		<?php include('slides_js/intro.php') ?>
 
-		<?php include('slides_js/operators.php') ?>
-
 		<?php include('slides_js/types.php') ?>
+
+		<?php include('slides_js/operators.php') ?>
 
 		<?php include('slides_js/statements.php') ?>
 
