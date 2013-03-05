@@ -1,17 +1,17 @@
 <div class="slide">
 	<h4>Fonts</h4>
-	<ul class="build">
+	<ul class="build no-bullet">
 		<li>
 			<strong>@font-face</strong> Allows you to use specific fonts
 		</li>
-		<li class="no-bullet">
+		<li>
 <pre class="structure">
 @font-face: {
     font-family: <strong>bevan</strong>;
     src: url('fonts/bevan.ttf');
 }
 </pre>
-		<li class="no-bullet">
+		<li>
 <pre class="structure">
 nav {
     <strong>font-family: bevan, sans-serif;</strong>
