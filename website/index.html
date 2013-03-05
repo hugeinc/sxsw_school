@@ -8,6 +8,7 @@
 	
 	<link rel="stylesheet" href="css/reset.css" />
 	<link rel="stylesheet" href="css/global.css" />
+	<link href='http://fonts.googleapis.com/css?family=Sniglet:800|Bevan' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/responsive.css" />
 	
 </head>
@@ -37,7 +38,7 @@
 			ipsum dolor sit amet, consectetur adipiscing elit. In at magna vel tortor bibendum accumsan eu sed odio. Praesent condimentum dapibus felis, non tempor lectus rutrum nec. Donec et enim pharetra risus congue sodales at sed dui. Pellentesque ullamcorper felis vitae orci tristique ut vulputate odio tempus. Ut vehicula fringilla sem in sagittis. Donec semper ultricies purus, nec interdum erat gravida vulputate. Proin dictum dapibus risus.
 		</div>
 		
-		<img src="images/cowboy.jpg" alt="Cowboy" width="202" height="201">
+		<img src="images/cowboy.jpg" alt="Cowboy" width="202" height="201" />
 	
 	</section>
 	
@@ -203,42 +204,7 @@
 	
 	
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWAfOo9Q7KgUHj-kF08jFaOSuc5GYYK90&sensor=false"></script>
-    <script type="text/javascript">
-    
-		function initialize() {
-
-			var mapOptions = {
-					zoom: 15,
-					disableDefaultUI: true,
-					scrollwheel: false,
-					mapMaker: true,
-					mapTypeId: google.maps.MapTypeId.ROADMAP
-				};
-			
-			var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
-
-			var geocoder = new google.maps.Geocoder();
-			
-			var latlng = geocoder.geocode({
-				address: '50 E Cesar Chavez St, Austin, TX'
-			}, function (results, status) {
-
-				var myLatLng = results[0].geometry.location;
-
-				map.setCenter(myLatLng);
-
-				var marker = new google.maps.Marker({
-					position: myLatLng,
-					map: map,
-					title:"Hello World!"
-				});
-
-			});
-		}
-		
-		initialize();
-		
-    </script>
+    <script type="text/javascript" src="js/map.js"></script>
 
 </body>
 </html>

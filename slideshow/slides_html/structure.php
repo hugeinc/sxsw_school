@@ -1,7 +1,6 @@
-<div class="slide magenta invert white-border">
+<div class="slide black invert">
 	<h1 class="v-center bigger white">HTML Syntax.</h1>
 </div>
-
 <!-- syntax -->
 <div class="slide">
 	<h4>HTML Syntax</h4>
@@ -25,14 +24,23 @@
 	</ul>
 </div>
 
-<!-- types of tags -->
 <div class="slide">
-	<h4>Types of tags</h4>
-	<ul class="">
-		<li>Tags can define the general page structure</li>
-		<li>Tags can define sections of a page</li>
-		<li>Tags can define elements on a page</li>
+	<h4>What every page needs</h4>
+	<ul class="no-bullet">
+		<li>
+<pre class="structure">
+&lt;!doctype html>
+&lt;html>
+    &lt;head>
+		&lt;title>Holden's Hog Tie&lt;/title>
+    &lt;/head>
+    &lt;body>
+        &lt;!-- visible part of the site goes here -->
+    &lt;/body>
+&lt;/html></pre>
+		</li>
 	</ul>
+	<small class="demo magenta">( demo )</small>
 </div>
 
 <!-- doctype -->
@@ -43,39 +51,32 @@
 		<li>
 		HTML5 Doctype:
 <pre class="structure">
-&lt;!DOCTYPE html>
+&lt;!doctype html>
 </pre>
 		</li>
 	</ul>
 </div>
 
-
-
-
+<!-- types of tags -->
 <div class="slide">
-	<h4>What every page needs</h4>
-	<ul class="no-bullet">
-		<li>
-<pre class="structure">
-&lt;!DOCTYPE html>
-&lt;html>
-    &lt;head>
-		&lt;title>Holden's Hog Tie&lt;/title>
-    &lt;/head>
-    &lt;body>
-        &lt;!-- main part of site goes here -->
-    &lt;/body>
-&lt;/html></pre>
-		</li>
+	<h4>Types of tags</h4>
+	<ul class="">
+		<li>Tags can define the general page structure</li>
+		<li>Tags can define sections of a page</li>
+		<li>Tags can define elements on a page</li>
 	</ul>
-	<small class="demo magenta">( demo )</small>
 </div>
 
 
+
+
+
+
 <div class="slide">
-	<h4>Tags <small>defining sections</small></h4>
+	<h4>More tags</h4>
 	<ul class="build no-bullet">
 		<li>
+		Type in within the <strong>&lt;body> &lt;/body></strong> tags
 <pre>
 <nav>
     <ul>
@@ -100,13 +101,13 @@
 
 
 <div class="slide">
-	<h4>More tags!</h4>
+	<h4>Even more tags!</h4>
 	<ul class="no-bullet">
 		<li>
 <pre>
 <footer class="clearfix">
     <nav>
-        <p>Holden's Hog Tie, 50 E Cesar Chavez St, Austin, TX ˙ (500) 867-5309</p>
+        <p>Holden's Hog Tie, 50 E Cesar Chavez St, Austin, TX (500) 867-5309</p>
         <ul>
             <li><a href="#">About Holden's</a></li>
             <li><a href="#">Menu</a></li>
