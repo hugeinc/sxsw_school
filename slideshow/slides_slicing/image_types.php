@@ -44,6 +44,7 @@
 							<li>Millions of colors</li>
 							<li>Best of both worlds</li>
 							<li>Lossless compression</li>
+							<li>Bigger file size</li>
 							<li>Anti-aliased transparency</li>
 							<li>Some older browsers don't support PNG</li>						</ul></td>
 				</tr>

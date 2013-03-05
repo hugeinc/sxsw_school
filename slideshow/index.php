@@ -119,7 +119,17 @@
 		
 		<?php include('slides_slicing/whatis_asset5.php') ?>
 		
-		<?php include('slides_slicing/slicing-howto.php') ?>
+		<?php include('slides_slicing/slicing-howto.php') ?>		
+		
+		<?php include('slides_slicing/step1.php') ?>
+		
+		<?php include('slides_slicing/step2.php') ?>
+		
+		<?php include('slides_slicing/step3.php') ?>
+		
+		<?php include('slides_slicing/step4.php') ?>
+		
+		<?php include('slides_slicing/step5.php') ?>
 		
 		<?php include('slides_slicing/image_types.php') ?>
 		
