@@ -37,9 +37,29 @@
 	.menu-bbq {
 		width: 100%;
 		float: left;
+	}
 }
 </pre>
 	<p>Targets all screens (including browser) that are smaller than 480px.</p>
 	<p>Useful for phones or smaller tablets.</p>
 	<p><strong>Normal css goes into any media query.  Anything you can use normally can be put in a media query!</strong></p>
+</div>
+
+<div class="slide">
+	<h4>Targeting strategies.</h4>
+	<p class="smaller">If you have a lot of wide content, it may be smarter to target sizes based on the content than the sizes of common devices.</p>
+	<p class="smaller">For example, our header image is 874px wide.  While this isn't a common breakpoint, it makes sense that for any screen smaller than this, we should hide the image.</p>
+<pre>
+@media screen and (max-width: 874px) {
+	/* Update global areas for smaller screens */
+	h1 {
+		background: none;
+	}
+	
+	header {
+		background: none;
+		height: 0px;
+	}
+}
+</pre>
 </div>
