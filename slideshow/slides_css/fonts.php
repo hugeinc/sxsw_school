@@ -2,20 +2,24 @@
 	<h4>Fonts</h4>
 	<ul class="build no-bullet">
 		<li>
-			<strong>@font-face</strong> Allows you to use specific fonts
+			<strong>Google Web Fonts</strong> allows you to embed fonts for free!
 		</li>
 		<li>
-<pre class="structure">
-@font-face: {
-    font-family: <strong>bevan</strong>;
-    src: url('fonts/bevan.ttf');
-}
-</pre>
+			<pre class="structure">
+&lt;html>
+    &lt;head>
+	&lt;link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Bevan">
+    &lt;/head>
+&lt;/html>
+			</pre>
+		</li>
 		<li>
-<pre class="structure">
-nav {
-    <strong>font-family: bevan, sans-serif;</strong>
-}</pre>
+			<pre class="structure">	    
+body {
+	font-family: 'Bevan', arial, sans-serif;
+	font-size: 48px;
+}
+			</pre>
 		</li>
 	</ul>
 </div>
