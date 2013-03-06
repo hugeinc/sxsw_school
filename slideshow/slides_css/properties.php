@@ -3,13 +3,6 @@
 	<ul class="build no-bullet">
 		<li>Use CSS to modify properties of HTML elements</li>
 		<li>
-<pre>
-selector {
-    property-name: value;
-}
-</pre>
-		</li>
-		<li>
 <pre class="structure">
 nav {
   <strong>text-decoration</strong>: underline;
