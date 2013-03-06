@@ -25,6 +25,17 @@
 </div>
 
 <div class="slide">
+	<h4>Creating a new document</h4>
+	<ul class="build">
+		<li>Create a new Folder</li>
+		<li>Sublime Text / Notepad ++</li>
+		<li>File -> New File</li>
+		<li>Save as <strong>index.html</strong></li>
+	</ul>
+</div>
+
+
+<div class="slide">
 	<h4>What every page needs</h4>
 	<ul class="no-bullet">
 		<li>
