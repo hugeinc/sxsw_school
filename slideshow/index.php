@@ -139,7 +139,7 @@
 
 		<?php include('slides_css/properties.php') ?>
 		
-		<?php include('slides_css/atfontface.php') ?>
+		<?php include('slides_css/fonts.php') ?>
 
 		<?php include('slides_css/media_queries.php') ?>
 		
