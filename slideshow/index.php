@@ -137,9 +137,15 @@
 		
 		<?php include('slides_css/selectors.php') ?>
 
+		<?php include('slides_css/specificity.php') ?>
+
 		<?php include('slides_css/properties.php') ?>
 		
 		<?php include('slides_css/atfontface.php') ?>
+
+		<?php include('slides_css/inheritance.php') ?>
+
+		<?php include('slides_css/cascading.php') ?>
 
 		<?php include('slides_css/media_queries.php') ?>
 		
