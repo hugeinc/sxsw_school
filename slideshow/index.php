@@ -39,8 +39,8 @@
 			<h4>What we will cover in this course</h4>
 			<ul class="build">
 				<li>HTML</li>
-				<li>Photoshop <small><strong>slicing!</strong></small></li>
 				<li>CSS</li>
+				<li>Photoshop <small><strong>slicing!</strong></small></li>
 				<li>JavaScript</li>
 			</ul>
 		</div>
@@ -73,7 +73,31 @@
 		
 		<?php include('slides_html/scriptlinktags.php') ?>
 		
+
 		
+		
+<?php 
+/* CSS
+----------------------------------------------------------------------------------------------- */
+?>
+
+		<div class="slide magenta invert white-border">
+			<h1 class="v-center bigger white">CSS.</h1>
+		</div>
+
+		<?php include('slides_css/declaration.php') ?>
+		
+		<?php include('slides_css/selectors.php') ?>
+
+		<?php include('slides_css/properties.php') ?>
+		
+		<?php include('slides_css/fonts.php') ?>
+		
+		<?php include('slides_css/cascading.php') ?>
+
+		<?php include('slides_css/media_queries.php') ?>
+
+	
 		
 <?php 
 /* Slicing
@@ -96,11 +120,19 @@
 		
 		<?php include('slides_slicing/whatis_asset5.php') ?>
 		
-		<?php include('slides_slicing/slicing-howto.php') ?>
+		<?php include('slides_slicing/slicing-howto.php') ?>		
+		
+		<?php include('slides_slicing/step1.php') ?>
+		
+		<?php include('slides_slicing/step2.php') ?>
+		
+		<?php include('slides_slicing/step3.php') ?>
+		
+		<?php include('slides_slicing/step4.php') ?>
+		
+		<?php include('slides_slicing/step5.php') ?>
 		
 		<?php include('slides_slicing/image_types.php') ?>
-		
-		<?php include('slides_slicing/file_size.php') ?>
 		
 		<?php include('slides_slicing/image_types_asset.php') ?>
 		
@@ -112,38 +144,16 @@
 		
 		<?php include('slides_slicing/image_types_asset5.php') ?>
 		
+		<?php include('slides_slicing/file_size.php') ?>
+		
 		<?php include('slides_slicing/save_for_web_features.php') ?>
 		
 		<?php include('slides_slicing/save_for_web.php') ?>
 		
 		<?php include('slides_slicing/file_naming.php') ?>
 
-		
-		
-		
-		
-<?php 
-/* CSS
------------------------------------------------------------------------------------------------ */
-?>
-
-		
 	
-		<div class="slide magenta invert white-border">
-			<h1 class="v-center bigger white">CSS.</h1>
-		</div>
 
-		<?php include('slides_css/declaration.php') ?>
-		
-		<?php include('slides_css/selectors.php') ?>
-
-		<?php include('slides_css/properties.php') ?>
-		
-		<?php include('slides_css/fonts.php') ?>
-
-		<?php include('slides_css/media_queries.php') ?>
-		
-		
 
 <?php 
 /* Javascript
@@ -151,23 +161,15 @@
 ?>
 		<?php include('slides_js/intro.php') ?>
 
-		<?php include('slides_js/operators.php') ?>
-
 		<?php include('slides_js/types.php') ?>
+
+		<?php include('slides_js/operators.php') ?>
 
 		<?php include('slides_js/statements.php') ?>
 
 		<?php include('slides_js/events.php') ?>
 		
 		<?php include('slides_js/events_common.php') ?>
-		
-		
-		
-<?php 
-/* Photoshop Slides
------------------------------------------------------------------------------------------------ */
-?>
-
 
 
 
