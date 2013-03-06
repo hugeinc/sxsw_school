@@ -116,7 +116,7 @@ if (blah == 5) {
 			<h4>Loop Statements, continued.</h4>
 			<p><strong>do ... while</strong></p>
 			<p>Let's rewrite our previous function using this type of loop statement.</p>
-<pre>
+<pre class="structure">
 var blah = 5;
 var i = 0;
 do {

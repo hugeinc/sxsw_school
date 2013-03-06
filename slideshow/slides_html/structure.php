@@ -43,7 +43,8 @@
 &lt;!doctype html>
 &lt;html>
     &lt;head>
-		&lt;title>Holden's Hog Tie&lt;/title>
+        &lt;meta charset="utf-8" />
+        &lt;title>Holden's Hog Tie&lt;/title>
     &lt;/head>
     &lt;body>
         &lt;!-- visible part of the site goes here -->
