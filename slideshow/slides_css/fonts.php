@@ -2,7 +2,7 @@
 	<h4>Fonts</h4>
 	<ul class="build no-bullet">
 		<li>
-			<strong>Google Web Fonts</strong> allows you to embed fonts for free!
+			<strong>Google Web Fonts</strong> allow you to embed fonts for free!
 		</li>
 		<li>
 			<pre class="structure">

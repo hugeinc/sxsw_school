@@ -1,3 +1,6 @@
+<div class="slide black invert">
+	<h1 class="v-center bigger white">Semantic Markup.</h1>
+</div>
 		<div class="slide">
 			<h4>Semantic Markup</h4>
 

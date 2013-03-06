@@ -3,7 +3,7 @@
 </div>
 <!-- syntax -->
 <div class="slide">
-	<h4>HTML Syntax</h4>
+	<h4>HTML</h4>
 	<ul>
 		<li>Tags</li>
 		<li>Attributes</li>
@@ -27,7 +27,7 @@
 <div class="slide">
 	<h4>Creating a new document</h4>
 	<ul class="build">
-		<li>Create a new Folder</li>
+		<li>Create a new Folder that will contain your project</li>
 		<li>Sublime Text / Notepad ++</li>
 		<li>File -> New File</li>
 		<li>Save as <strong>index.html</strong></li>
@@ -87,7 +87,7 @@
 	<h4>More tags</h4>
 	<ul class="build no-bullet">
 		<li>
-		Type in within the <strong>&lt;body> &lt;/body></strong> tags
+		Working within the <strong>&lt;body> &lt;/body></strong> tags
 <pre>
 <nav>
     <ul>
