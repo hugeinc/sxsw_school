@@ -89,15 +89,17 @@
 		
 		<?php include('slides_css/selectors.php') ?>
 
+		<?php include('slides_css/specificity.php') ?>
+
 		<?php include('slides_css/properties.php') ?>
 		
 		<?php include('slides_css/fonts.php') ?>
-		
+
+		<?php include('slides_css/inheritance.php') ?>
+
 		<?php include('slides_css/cascading.php') ?>
 
-		<?php include('slides_css/media_queries.php') ?>
-
-	
+		<?php include('slides_css/media_queries.php') ?>	
 		
 <?php 
 /* Slicing
@@ -151,8 +153,6 @@
 		<?php include('slides_slicing/save_for_web.php') ?>
 		
 		<?php include('slides_slicing/file_naming.php') ?>
-
-	
 
 
 <?php 
