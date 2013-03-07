@@ -100,6 +100,8 @@
 
 		<?php include('slides_css/cascading.php') ?>
 
+		<?php include('slides_css/box_model.php') ?>
+
 		<?php include('slides_css/media_queries.php') ?>	
 		
 <?php 
