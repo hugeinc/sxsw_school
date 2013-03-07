@@ -28,9 +28,9 @@
 		color: blue;
 	}
 	<h2>This will be red</h2>
-	<h4>This will be blue</h2>
+	<h4>This will be blue</h4>
 	<h2>This will also be red</h2>
-	<h4>This will also be blue</h2>	
+	<h4>This will also be blue</h4>	
 	</pre>	
 	<p>The above css would make the text of every h2 tag red and every h4 tag blue </p>
 
@@ -95,7 +95,7 @@
 
 <div class="slide">
 	<h4>Attribute value list contains- <tag><strong>[attribute~="value"]</strong></h4>
-	<p>Selects an html tag that has an attribute whose value is the specified value or is a space delimited list containg that value </p>
+	<p>Selects an html tag that has an attribute whose value is the specified value or is a space delimited list containing that value </p>
 	<pre>
 	p[title~="chicken"] {
 		color: blue
@@ -108,7 +108,7 @@
 
 <div class="slide">
 	<h4>Descendant - <strong>Ancestor1 [Ancestor2...] Target</strong>.</h4>
-	<p>Using a descendant is actually using multiple selectors where the last selector,the element to be styled, is 
+	<p>Using a descendant is actually using multiple selectors where the last selector, the element to be styled, is 
 		a descendant of all the selectors before it.</p>
 	<pre>
 	#address p .city {	

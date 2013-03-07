@@ -13,6 +13,7 @@
 				<li>Comparison (ie, ==, !=, >)</li>
 				<li>Logical (&&, ||, !)</li>
 				<li>String (+ and +=)</li>
+			</ul>
 		</div>
 
 		<div class="slide">
