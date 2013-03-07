@@ -69,7 +69,11 @@ selector {property-name: value;property2: value;}</pre>
     ...
 &lt;/head>
 </pre>
-<p>Now, copy your style from your internal css into your global.css file</p>
+	<ul class="build">
+		<li>Create a folder called <strong>css</strong> within your holdens_web folder</li>
+		<li>Create a new file save it as <strong>global.css</strong>, place it inside the css folder</li>
+		<li>Copy your css rule from your internal css into global.css</li>
+	</ul>
 <?php include('demo_inline.php') ?>
 </div>
 

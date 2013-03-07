@@ -27,7 +27,7 @@
 <div class="slide">
 	<h4>Creating a new document</h4>
 	<ul class="build">
-		<li>Create a new Folder that will contain your project</li>
+		<li>Create a new Folder that will contain your project. Call it <strong>holdens_web</strong></li>
 		<li>Sublime Text / Notepad ++</li>
 		<li>File -> New File</li>
 		<li>Save as <strong>index.html</strong></li>
