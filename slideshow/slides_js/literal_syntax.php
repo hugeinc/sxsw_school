@@ -32,7 +32,7 @@ object["sum"](1, 2);
 </div>
 <div class="slide">
 	<p>A full Object Literal Syntax example.</p> 
-			<pre>
+			<pre class="full">
 var DEMO = DEMO || {};
 DEMO.global = {
 	init: function(){
