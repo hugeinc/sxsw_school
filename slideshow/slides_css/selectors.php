@@ -1,22 +1,33 @@
-<div class="slide">
-	<h4>Selectors</h4>
 
-	<p>Choose which elements receive a style.</p>
-	<pre >
-	p {
-		font-size: 14px;
-	}</pre>
+<div class="slide magenta">
+	<h1 class="white">Selectors and Properties</h1>
 </div>
 
 <div class="slide">
-	<h4>Selectors</h4>
-
-	<p>Choose which elements receive a style.</p>
+	<h4>Including CSS - <small>Internal</small></h4>
 	<pre class="structure">
-	<strong>p</strong> {
-		font-size: 14px;
-	}</pre>
+&lt;head>
+     ...
+     &lt;style type="text/css">
+          /* This is a comment for an h1 style */
+          h1 {
+          	color: red;
+          }
+     &lt;/style>
+&lt;/head>
+ </pre>
+<?php include('demo_inline.php') ?>
 </div>
+
+
+<div class="slide">
+	Basic Selectors
+</div>
+
+<div class="slide black invert">
+	<h1 class="white">CSS Selectors</h1>
+</div>
+
 <div class="slide">
 	<h4>Tag</h4>
 	<p>The tag selector is used to apply styles to certain tags</p>
@@ -33,10 +44,6 @@
 	<h4>This will also be blue</h4>	
 	</pre>	
 	<p>The above css would make the text of every h2 tag red and every h4 tag blue </p>
-
-</div>
-<div class="slide">
-	Basic Selectors
 </div>
 <div class="slide">
 	<h4>ID - <strong>#</strong></h4>

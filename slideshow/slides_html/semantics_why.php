@@ -6,3 +6,25 @@
 			</p>
 
 		</div>
+
+<div class="slide">
+	<h4>Common Semantic Tags</h4>
+	<ul>
+		<li>header</li>
+		<li>nav</li>
+		<li>article</li>
+		<li>ul</li>
+		<li>ol</li>
+		<li>a</li>
+		<li>img</li>
+		<li>table</li>
+	</ul>
+</div>
+
+<div class="slide">
+	<h4>Adding Semantics to Structural tags</h4>
+	<pre>
+<div class="main-content"></div>
+<div id="advertisment"> </div>
+	</pre>
+</div>
