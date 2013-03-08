@@ -1,3 +1,6 @@
+<div class="slide image">
+	<img src="images/html-console.png" width="900" />
+</div>
 
 <div class="slide black">
 	<h1 class="white">Selectors and Properties</h1>
