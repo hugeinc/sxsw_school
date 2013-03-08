@@ -1,9 +1,9 @@
-<div class="slide image">
-	<img src="images/html-console.png" width="900" />
-</div>
-
 <div class="slide black">
 	<h1 class="white">Selectors and Properties</h1>
+</div>
+
+<div class="slide image">
+	<img src="images/html-console.png" width="900" />
 </div>
 
 <div class="slide">
@@ -21,11 +21,6 @@
 &lt;/head>
  </pre>
 <?php include('demo_inline.php') ?>
-</div>
-
-
-<div class="slide">
-	Basic Selectors
 </div>
 
 <div class="slide black invert">
