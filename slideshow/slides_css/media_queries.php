@@ -53,7 +53,11 @@
 	<h4>Targeting strategies.</h4>
 	<p class="smaller">If you have a lot of wide content, it may be smarter to target sizes based on the content than the sizes of common devices.</p>
 	<p class="smaller">For example, our header image is 874px wide.  While this isn't a common breakpoint, it makes sense that for any screen smaller than this, we should hide the image.</p>
-<pre>
+</div>
+
+<div class="slide">
+	<h4>Example.</h4>
+	<pre>
 @media screen and (max-width: 874px) {
 	/* Update global areas for smaller screens */
 	h1 {
@@ -66,6 +70,7 @@
 	}
 }
 </pre>
+	<p>In this case, we are just hiding the image since we have another logo.  You could also stretch the image to scale, or serve up a smaller background image specifically for smaller devices.</p>
 </div>
 
 <div class="slide">
