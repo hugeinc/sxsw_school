@@ -1,6 +1,6 @@
 
-		<div class="slide green invert white-border">
-			<h1 class="v-center bigger white">Doing stuff with data.</h1>
+		<div class="slide black invert">
+			<h1 class="v-center white">Doing stuff with data.</h1>
 		</div>
 		
 		<div class="slide">

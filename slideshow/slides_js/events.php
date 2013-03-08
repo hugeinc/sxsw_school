@@ -1,4 +1,4 @@
-		<div class="slide invert green">
+		<div class="slide invert black">
 			<h1 class="white">Events.</h1>
 		</div>
 		<div class="slide">

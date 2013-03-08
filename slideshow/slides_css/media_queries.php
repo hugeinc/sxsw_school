@@ -1,4 +1,4 @@
-<div class="slide green invert white-border">
+<div class="slide black invert">
 	<h1 class="v-center bigger white">Media Queries.</h1>	
 </div>
 
