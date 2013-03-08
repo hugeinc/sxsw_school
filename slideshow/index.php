@@ -31,6 +31,8 @@
 			<p class="smaller">March 9 - 12, 2013</p>
 		</div>
 		
+		<?php include('slides_other/environment.php') ?>
+		
 		<div class="slide magenta invert white-border">
 			<h1 class="v-center bigger white">Get started.</h1>
 		</div>
@@ -58,6 +60,7 @@
 		<div class="slide magenta invert white-border">
 			<h1 class="v-center bigger white">HTML.</h1>
 		</div>
+	
 		
 		<?php include('slides_html/whatishtml.php') ?>
 		
