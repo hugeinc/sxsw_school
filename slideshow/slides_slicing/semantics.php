@@ -2,7 +2,7 @@
 			<h4>Semantic Markup</h4>
 
 			<p>
-			Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in webpages rather than merely to define its presentation (look).
+			Semantic HTML is the use of HTML markup in a way that describes and reinforces the <strong>meaning</strong> of content, rather than merely defining how content is presented.
 			</p>
 
 <pre>
