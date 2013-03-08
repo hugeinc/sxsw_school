@@ -168,6 +168,8 @@
 
 		<?php include('slides_js/statements.php') ?>
 
+		<?php include('slides_js/literal_syntax.php') ?>
+
 		<?php include('slides_js/events.php') ?>
 		
 		<?php include('slides_js/events_common.php') ?>

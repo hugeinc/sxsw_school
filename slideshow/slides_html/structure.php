@@ -25,7 +25,29 @@
 </div>
 
 <div class="slide">
-Place Holder for list of common attributes slide
+	<h4>Common Attributes</h4>
+	<ul class="build no-bullet">
+		<li>
+<pre class="structure">
+&lt;a <strong>href="http://www.hugeinc.com" target="_blank"</strong>>  &lt;/a></pre>
+		</li>
+		<li>
+<pre class="structure">
+&lt;div <strong>class="menu-sides"</strong>>  &lt;/div>
+</pre>
+		</li>
+		<li>
+<pre class="structure">
+&lt;section <strong>id="menu-drinks" class="menu clearfix"</strong>>  &lt;/section>
+</pre>
+		</li>
+		<li>
+<pre class="structure">
+&lt;img <strong>src="images/coyboy.jpg" alt="Cowboy" width="202" height="201"</strong> />
+</pre>
+		</li>
+		
+	</ul>
 </div>
 
 <div class="slide">
