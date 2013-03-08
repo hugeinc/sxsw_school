@@ -94,6 +94,8 @@
 
 		<?php include('slides_css/properties.php') ?>
 		
+		<?php include('slides_css/floats.php') ?>
+		
 		<?php include('slides_css/fonts.php') ?>
 
 		<?php include('slides_css/inheritance.php') ?>
