@@ -1,3 +1,7 @@
+<div class="slide green invert white-border">
+	<h1 class="v-center bigger white">Media Queries.</h1>	
+</div>
+
 <div class="slide">
 	<h4>Media Queries.</h4>
 	<p>Consists of a media type (such as screen, print, device) and various css rules to be applied.</p>
