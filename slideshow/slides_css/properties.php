@@ -15,6 +15,9 @@
 <?php include('demo_inline.php') ?>
 </div>
 
+<div class="slide black">
+	<h1 class="white">CSS Properties</h1>
+</div>
 
 <div class="slide">
 	<h4>CSS properties</h4>

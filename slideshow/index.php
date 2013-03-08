@@ -94,11 +94,15 @@
 
 		<?php include('slides_css/properties.php') ?>
 		
+		<?php include('slides_css/floats.php') ?>
+		
 		<?php include('slides_css/fonts.php') ?>
 
 		<?php include('slides_css/inheritance.php') ?>
 
 		<?php include('slides_css/cascading.php') ?>
+
+		<?php include('slides_css/box_model.php') ?>
 
 		<?php include('slides_css/media_queries.php') ?>	
 		
