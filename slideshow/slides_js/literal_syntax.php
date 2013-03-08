@@ -1,3 +1,7 @@
+<div class="slide invert black">
+	<h1 class="white">Literal Syntax.</h1>
+</div>
+
 <div class="slide">
 	<h4>Literal Syntax</h4>
 	<p>An object literal is a list of zero or more pairs of property names and associated values of an object, enclosed in curly braces ({}).</p>
