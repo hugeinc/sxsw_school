@@ -36,17 +36,17 @@
 	<h4>Tag</h4>
 	<p>The tag selector is used to apply styles to certain tags</p>
 	<pre>
-		h2 {
-		color: red;
-		}
-		h4 {
-		color: blue;
-	}
+h2 {
+	color: red;
+}
+h4 {
+	color: blue;
+}
 	<h2>This will be red</h2>
 	<h4>This will be blue</h4>
 	<h2>This will also be red</h2>
 	<h4>This will also be blue</h4>	
-	</pre>	
+</pre>	
 	<p>The above css would make the text of every h2 tag red and every h4 tag blue </p>
 </div>
 
@@ -67,15 +67,15 @@ h4 {
 	<h4>ID - <strong>#</strong></h4>
 	<p>Any html tag, can be given a unique id attribute. The id selector,<strong>#</strong>, is used to target an element with a specified id</p>
 	<pre>
-		#main-content {
-			color: magenta;
-		}
-		#terms {
-			color: green;
-		}
+#main-content {
+	color: magenta;
+}
+#terms {
+	color: green;
+}
 
-		<div id="main-content">This text will be magenta</div>
-		<h1 id="terms">This text will be green</h1>
+<div id="main-content">This text will be magenta</div>
+<h1 id="terms">This text will be green</h1>
 	</pre>
 	<?php include('demo_inline.php') ?>
 </div>
@@ -104,9 +104,9 @@ h4 {
 	<h4>Attribute - <tag><strong>[attribute]</strong></h4>
 	<p>Selects an html tag that has the attribute</p>
 	<pre>
-	p[title] {
-		color: blue
-	}
+p[title] {
+	color: blue
+}
 	<p>This text will be black</p>
 	<p title="brisket">This text will be blue</p>
 </div>
@@ -114,9 +114,9 @@ h4 {
 	<h4>Attribute equals- <tag><strong>[attribute="value"]</strong></h4>
 	<p>Selects an html tag that has an attribute with the specified value</p>
 	<pre>
-	p[title="waffles"] {
-		color: blue
-	}
+p[title="waffles"] {
+	color: blue
+}
 	<p>This text will be black</p>
 	<p title="brisket">This text will be black</p>
 	<p title="waffles">This text will be blue</p>
@@ -126,9 +126,9 @@ h4 {
 	<h4>Attribute value list contains- <tag><strong>[attribute~="value"]</strong></h4>
 	<p>Selects an html tag that has an attribute whose value is the specified value or is a space delimited list containing that value </p>
 	<pre>
-	p[title~="chicken"] {
-		color: blue
-	}
+p[title~="chicken"] {
+	color: blue
+}
 	<p>This text will be black</p>	
 	<p title="waffles">This text will be black</p>
 	<p title="waffles chicken">This text will be blue</p>
@@ -140,47 +140,47 @@ h4 {
 	<p>Using a descendant is actually using multiple selectors where the last selector, the element to be styled, is 
 		a descendant of all the selectors before it.</p>
 	<pre>
-	#address p .city {	
-		color: silver;
-	}
-	.pork li {
-		color: salmon;
-	}
+#address p .city {	
+	color: silver;
+}
+.pork li {
+	color: salmon;
+}
 	</pre>
 </div>
 
 <div class="slide">
 	<h4>Descendant cont.</h4>	
 	<pre>
-	#address p .city {	
-		color: silver;
-	}
-	<div id="address" >
+#address p .city {	
+	color: silver;
+}
+<div id="address" >
+	This text will be black
+	<p>
 		This text will be black
-		<p>
+		<span class="city" >This text will be silver</span>
 			This text will be black
-			<span class="city" >This text will be silver</span>
-				This text will be black
-		</p>
-	</div>	
+	</p>
+</div>	
 	</pre>
 </div>
 <div class="slide">
 	<h4>Descendant cont.</h4>	
 	<pre>
-	.pork li {
-		color: salmon;
-	}
-	<div class="pork">
-		<ul>
-			<li>This text will be salmon</li>
-		</ul>
-	</div>
-	<div>
-		<ul>
-			<li>This text will be black</li>
-		</ul>
-	</div>
+.pork li {
+	color: salmon;
+}
+<div class="pork">
+	<ul>
+		<li>This text will be salmon</li>
+	</ul>
+</div>
+<div>
+	<ul>
+		<li>This text will be black</li>
+	</ul>
+</div>
 	</pre>
 </div>
 <!-- <div class="slide">

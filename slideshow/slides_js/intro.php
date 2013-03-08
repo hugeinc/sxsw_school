@@ -16,6 +16,9 @@
 
 <div class="slide">
 	<h4>What is Object Oriented?</h4>
+	<p>Object oriented is a programming language design paradigm where everything can be encapsulated in "objects".</p>
+	<p>Instead of coding a set of instructions to happen in a row, object oriented programming allows you to model real-world objects and their various properties.</p>
+	<p><strong>Why is this useful?</strong> Objects are closely linked with their properties, so instead of copying a bunch of step by step actions, you can just recreate the object elsewhere.</p>
 </div>
 
 <div class="slide">

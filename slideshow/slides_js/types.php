@@ -1,5 +1,5 @@
 
-		<div class="slide green invert white-border">
+		<div class="slide black invert">
 			<h1 class="v-center bigger white">Data Types.</h1>
 		</div>
 		
