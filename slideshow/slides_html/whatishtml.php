@@ -14,7 +14,4 @@
 
 <div class="slide">
 	<h1>Holden's Hog Tie</h1>
-
-	
-
 </div>
