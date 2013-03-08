@@ -433,7 +433,7 @@ pre {
 }
 
 pre.full{
-	height: 700px;
+	max-height: 700px;
 }
 code {
   font-size: 95%;
