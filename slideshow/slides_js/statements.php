@@ -129,7 +129,7 @@ while (i <= blah);
 		
 		<div class="slide">
 			<h4>Loop Statements, last one promise!</h4>
-<pre>
+<pre class="structure">
 var blah = 5;
 var i = 0;
 while (i <= blah) {
