@@ -1,5 +1,5 @@
 
-<div class="slide magenta">
+<div class="slide black">
 	<h1 class="white">Selectors and Properties</h1>
 </div>
 
@@ -9,7 +9,8 @@
 &lt;head>
      ...
      &lt;style type="text/css">
-          /* This is a comment for an h1 style */
+          /* This is a comment 
+          for an h1 style */
           h1 {
           	color: red;
           }
@@ -45,37 +46,55 @@
 	</pre>	
 	<p>The above css would make the text of every h2 tag red and every h4 tag blue </p>
 </div>
+
+<div class="slide">
+	<h4>Tag</h4>
+	<pre>
+h2 {
+    color: red;
+}
+h4 {
+    color: blue;
+}
+	</pre>
+	<?php include('demo_inline.php') ?>
+</div>
+
 <div class="slide">
 	<h4>ID - <strong>#</strong></h4>
 	<p>Any html tag, can be given a unique id attribute. The id selector,<strong>#</strong>, is used to target an element with a specified id</p>
 	<pre>
 		#main-content {
-			height: 500px;
+			color: magenta;
 		}
-		#headline {
+		#terms {
 			color: green;
 		}
 
-		<div id="mainContent">This div will be 500 pixels tall</div>
-		<h2 id="headline">This text will be green</h2>
+		<div id="main-content">This text will be magenta</div>
+		<h1 id="terms">This text will be green</h1>
 	</pre>
+	<?php include('demo_inline.php') ?>
 </div>
 
 <div class="slide">
 	<h4>Class - <strong>.</strong></h4>
 	<p>Any html tag can be given a class attribute with multiple values non-unique values. The class selector,<span style="font-size: 40px;"><strong>.</strong></span>,is used to target all elements with a specified class</p>
 	<pre>
-		.big-text {
-			font-size: 40px;
-		}
-		.red-text {
-			color: red;
-		}
-		<p class="big-text">This text will be big</p>
+.sub-header {
+     font-size: 29px;
+}
+.red-text {
+     color: red;
+}
+.silly-text {
+	font-size: 10px;
+}
+		<h2 class="sub-header">This text will be big</h2>
 		<p class="red-text">This text will be red</p>
-		<p class="big-text red-text">This text will be big AND red</p>
+		<p class="red-text silly-text">This text will be small AND red</p>
 	</pre>
-
+<?php include('demo_inline.php') ?>
 </div>
 
 <div class="slide">
@@ -119,10 +138,10 @@
 		a descendant of all the selectors before it.</p>
 	<pre>
 	#address p .city {	
-		width: 155px;
+		color: silver;
 	}
-	.specials li {
-		color: white;
+	.pork li {
+		color: salmon;
 	}
 	</pre>
 </div>
@@ -131,13 +150,13 @@
 	<h4>Descendant cont.</h4>	
 	<pre>
 	#address p .city {	
-		color: green;
+		color: silver;
 	}
 	<div id="address" >
 		This text will be black
 		<p>
 			This text will be black
-			<span class="city" >This text will be green</span>
+			<span class="city" >This text will be silver</span>
 				This text will be black
 		</p>
 	</div>	
@@ -146,12 +165,12 @@
 <div class="slide">
 	<h4>Descendant cont.</h4>	
 	<pre>
-	.specials li {
-		color: white;
+	.pork li {
+		color: salmon;
 	}
-	<div class="specials">
+	<div class="pork">
 		<ul>
-			<li>This text will be white</li>
+			<li>This text will be salmon</li>
 		</ul>
 	</div>
 	<div>

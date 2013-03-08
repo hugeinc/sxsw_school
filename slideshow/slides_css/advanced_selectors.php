@@ -7,7 +7,7 @@
 </div>
 
 <div class="slide">
-	<h4>Advanced Psuedo Class</h4>
+	<h4>Psuedo Class</h4>
 	li:hover a
 </div>
 
