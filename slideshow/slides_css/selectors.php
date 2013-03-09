@@ -85,12 +85,12 @@ h4 {
 .red-text {
      color: red;
 }
-.silly-text {
-	font-size: 10px;
+.big-text {
+	font-size: 40px;
 }
 		<h2 class="sub-header">This text will be big</h2>
 		<p class="red-text">This text will be red</p>
-		<p class="red-text silly-text">This text will be small AND red</p>
+		<p class="red-text big-text">This text will be big AND red</p>
 	</pre>
 <?php include('demo_inline.php') ?>
 </div>
@@ -204,7 +204,4 @@ p[title~="chicken"] {
 
 </div> -->
 
-<div class="slide">
-	<h4>More Information</h4>
-http://www.w3.org/TR/selectors/#selectors
-</div>
+

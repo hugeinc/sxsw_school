@@ -93,6 +93,8 @@
 		<?php include('slides_css/specificity.php') ?>
 
 		<?php include('slides_css/properties.php') ?>
+
+		<?php include('slides_css/advanced_selectors.php') ?>
 		
 		<?php include('slides_css/floats.php') ?>
 		
