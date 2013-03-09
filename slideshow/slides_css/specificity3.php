@@ -5,7 +5,7 @@
 <pre class="prettyprint">
 /* A little more specific */
 .public p {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Georgia;
 }
 </pre>
 		</li>
@@ -13,7 +13,7 @@
 <pre class="prettyprint">
 /* Pretty specific */
 .public .introduction {
-    font-family: Georgia;
+	font-family: "Courier New", monospace;
 }
 </pre>
 		</li>
@@ -21,7 +21,7 @@
 <pre class="prettyprint">
 /* Very specific */
 #main-content p {
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman";
 }
 </pre>
 		</li>
