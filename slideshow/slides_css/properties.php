@@ -9,8 +9,8 @@
   <pre class="structure">
 &lt;head>
     ...
-    &lt;link type="style/css" href="css/reset.css" />
-    &lt;link type="style/css" href="css/global.css" />
+    &lt;link rel="stylesheet" type="text/css" href="css/reset.css" />
+    &lt;link rel="stylesheet" type="text/css" href="css/global.css" />
     ...
 &lt;/head>
 </pre>
