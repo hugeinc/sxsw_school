@@ -94,12 +94,16 @@
 		
 		<?php include('slides_css/selectors.php') ?>
 
-		<?php include('slides_css/specificity.php') ?>
-
 		<?php include('slides_css/properties.php') ?>
 
 		<?php include('slides_css/advanced_selectors.php') ?>
+
+		<?php include('slides_css/specificity.php') ?>
+
+		<?php include('slides_css/box_model.php') ?>
 		
+		<?php include('slides_css/block_inline.php') ?>
+
 		<?php include('slides_css/floats.php') ?>
 		
 		<?php include('slides_css/fonts.php') ?>
@@ -108,7 +112,7 @@
 
 		<?php include('slides_css/cascading.php') ?>
 
-		<?php include('slides_css/box_model.php') ?>
+		
 
 		<?php include('slides_css/media_queries.php') ?>	
 		

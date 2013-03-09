@@ -56,11 +56,8 @@ li:first-child {
 	~
 	>
 </div>
-<div class="slide">
-	<h4>More Information</h4>
-<p><a href="http://www.w3.org/TR/selectors/#selectors">http://www.w3.org/TR/selectors/#selectors</a><p>
-</div>
 
 <div class="slide">
-	<h4></h4>
+	<h4>Selectors - More Information</h4>
+<p><a href="http://www.w3.org/TR/selectors/#selectors">http://www.w3.org/TR/selectors/#selectors</a><p>
 </div>

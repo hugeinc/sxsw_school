@@ -1,3 +1,9 @@
+
+
+<div class="slide black">
+	<h1 class="white">CSS Properties</h1>
+</div>
+
 <div class="slide">
   <h4>Including CSS - <small>External/Linked</small></h4>
   <pre class="structure">
@@ -13,10 +19,6 @@
     <li>Copy your css rule from your internal css into global.css</li>
   </ul>
 <?php include('demo_inline.php') ?>
-</div>
-
-<div class="slide black">
-	<h1 class="white">CSS Properties</h1>
 </div>
 
 <div class="slide">
