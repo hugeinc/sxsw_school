@@ -5,8 +5,7 @@
 <div class="slide">
 	<h4>Github</h4>
 	<ul>
-		<li>git clone git@github.com:hugeinc/sxsw_school.git</li>
-		<li>[ I NEED MORE INFO ]</li>
+		<li>git clone https://github.com/hugeinc/sxsw_2013</li>
 	</ul>
 </div>
 
