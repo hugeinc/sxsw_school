@@ -175,9 +175,18 @@
 
 
 <?php 
+/* Building the site
+----------------------------------------------------------------------------------------------- */
+?>
+		<?php include('slides_building/section.php') ?>
+		
+		<?php include('slides_building/maps.php') ?>
+
+<?php 
 /* Javascript
 ----------------------------------------------------------------------------------------------- */
 ?>
+
 		<?php include('slides_js/intro.php') ?>
 
 		<?php include('slides_js/types.php') ?>
