@@ -20,12 +20,3 @@ p {
 		</li>
 	</ul>
 </div>
-
-<!--
-What are we doing w/ this
-			<li style='font-family:"Garamond";'>Garamond</li>
-			<li style='font-family:Helvetica,Arial,sans-serif;'>Helvetica</li>
-			<li style='font-family:Georgia;'>Georgia</li>
-			<li style='font-family:"Courier New";'>Courier New</li>
-			<li style='font-family:"Times New Roman";'>Times New Roman</li>
--->
