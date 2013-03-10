@@ -41,7 +41,10 @@ li {
 	list-style: none;
 }
 
-
+a,
+a:visited {
+	color: #1a1a1a;
+}
 
 
 

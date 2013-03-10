@@ -110,7 +110,6 @@
 	height: 41px;
 	bottom: 0;
 	margin: 33px 18px 0 0;
-	
 	font-family: bevan, sans-serif;
 	text-decoration: none;
 	color: #fff;
