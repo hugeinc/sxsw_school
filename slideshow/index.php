@@ -182,6 +182,8 @@
 		
 		<?php include('slides_building/maps.php') ?>
 
+		<?php include('slides_building/responsive.php') ?>
+
 <?php 
 /* Javascript
 ----------------------------------------------------------------------------------------------- */
