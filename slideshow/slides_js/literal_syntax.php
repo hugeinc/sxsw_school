@@ -57,3 +57,27 @@ window.onload = function () {
 			</pre>
 
 </div>
+<div class="slide">
+	<p>Literal vs. Classic</p> 
+			<pre class="full">
+var candies = new Array();
+candies.push('Snickers', 'Butterfinger', 'Twix');
+var goodies = ['Munchos', 'Funyons', 'Cheetos']; //literal
+console.log(candies);
+console.log(goodies);
+var kitten = new Object();
+kitten.meow = function() { alert('meow'); };
+kitten.monthsOld = 4;
+var puppy = {
+        bark: function() {
+                alert('yap');
+        },      
+        monthsOld: 6
+}       
+kitten.meow();
+puppy.bark();
+console.log(kitten);
+console.log(puppy);
+			</pre>
+
+</div>
