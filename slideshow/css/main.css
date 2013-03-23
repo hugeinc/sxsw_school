@@ -6,10 +6,11 @@
 }
 body {
 	margin: 0;
-	padding: 0; 
+	padding: 0;
 	font-family: HUGEAvantGardeBold;
 	color: #333;
 }
+
 .magenta {
 	color: #ED228E;
 }
@@ -73,7 +74,7 @@ h2 {
 	background-color: #333;
 	color: #fff;
 	padding: 6px 10px;
-	margin-top: 0; 
+	margin-top: 0;
 	border-radius: 3px;
 	margin-left: 300px;
 	font-size: 12px;
@@ -81,7 +82,7 @@ h2 {
 	font-family: arial;
 }
 h1 .worker-gif {
-	display: none;	
+	display: none;
 }
 h1 {
 	position: relative;
