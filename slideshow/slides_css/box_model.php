@@ -6,7 +6,7 @@
     	margin: 400px 0 0;
     }
 </style>
-<div id="box-model" class="slide">
+<div id="box-model" class="slide section">
 	<h4>Box Model</h4>
 	<p class="bottom">All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout.</p>
 </div>
@@ -16,8 +16,8 @@
 		<li>
 			<pre>
 Margin - Clears an area around the border.
-Border - A border that goes around the padding and content. 
-Padding - Clears an area around the content. 
+Border - A border that goes around the padding and content.
+Padding - Clears an area around the content.
 Content - The content of the box, where text and images appear.
 </pre>
 		</li>

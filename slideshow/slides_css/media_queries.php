@@ -1,12 +1,12 @@
-<div class="slide black invert">
-	<h1 class="v-center bigger white">Media Queries.</h1>	
+<div class="slide black invert section">
+	<h1 class="v-center bigger white">Media Queries.</h1>
 </div>
 
 <div class="slide">
 	<h4>Media Queries.</h4>
 	<p>Consists of a media type (such as screen, print, device) and various css rules to be applied.</p>
 	<p>Allows a developer to target either devices or size-based breakpoints (or both) to customize a website's layout and appearance.</p>
-	<p><strong>Media queries are one very important tool for creating a responsive design.</strong></p>	
+	<p><strong>Media queries are one very important tool for creating a responsive design.</strong></p>
 </div>
 
 <div class="slide">
@@ -16,7 +16,7 @@
 		<li><strong>print</strong>: for print stylesheets</li>
 		<li><strong>screen</strong>: for almost everything else!</li>
 	</ul>
-</div>		
+</div>
 
 <div class="slide">
 	<h4>Targeting a feature.</h4>
@@ -25,14 +25,14 @@
 		<li><strong>max-device-width</strong>: to target a certain device size (note: only for devices!)</li>
 		<li><strong>max-width</strong>: for all devices or browser needs</li>
 	</ul>
-</div>	
+</div>
 
 
 <div class="slide">
 	<h4>Why target a feature or size?</h4>
 	<p>Retina display.  You can target based on <strong>-webkit-min-device-pixel-ratio: 2</strong> to serve up higher quality images.</p>
 	<p>Any small device.  Target based on a max or min size to provide a more natural layout on small devices ie: <strong>max-width: 480px</strong>.</p>
-</div>	
+</div>
 
 <div class="slide">
 	<h4>Example.</h4>
@@ -63,7 +63,7 @@
 	h1 {
 		background: none;
 	}
-	
+
 	header {
 		background: none;
 		height: 0px;
@@ -75,7 +75,7 @@
 
 <div class="slide">
 	<h4>Responsive Design and Responsive Web.</h4>
-	
+
 	<p>
 		Responsive is the way the web is going at a rapid rate. Tablets, phones, desktops, gaming consoles, etc all view the same websites at different
 		resolutions and screensizes. How do we ensure that our websites look good on all of these devices?

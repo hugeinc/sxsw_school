@@ -1,4 +1,4 @@
-<div class="slide black">
+<div class="slide black section">
 	<h1 class="white">Other Selectors</h1>
 </div>
 

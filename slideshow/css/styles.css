@@ -86,6 +86,8 @@ h1.v-center {
 	overflow-y: scroll;
 	z-index: 100000;
 }
+	.fast-nav { position: absolute; top: 50px; left: 50px; }
+		.fast-nav a { display: block; color: #000; margin: 0 0 20px; font-size: 30px; text-decoration: none; text-transform: uppercase; }
 	ul.menu { list-style-type: none; margin: 50px 0; }
 		ul.menu li { text-align: center; }
 			ul.menu li a { color: #ED228E; text-decoration: none; }

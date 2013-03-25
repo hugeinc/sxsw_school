@@ -1,4 +1,4 @@
-<div class="slide">
+<div class="slide section">
 	<h4>Cascading</h4>
 	<p>The CSS cascade assigns a weight to each style rule. When several rules apply, the one with the greatest weight takes precedence.</p>
 	<ul class="build no-bullet">

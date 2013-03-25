@@ -1,4 +1,4 @@
-<div class="slide">
+<div class="slide section">
 	<h4>CSS - float</h4>
 	<ul>
 		<li>The <strong>float</strong> property is used to float an element to the left or right.</li>

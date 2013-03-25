@@ -1,4 +1,4 @@
-<div class="slide black invert">
+<div class="slide black invert section">
 	<h1 class="v-center bigger white">HTML Syntax.</h1>
 </div>
 <!-- syntax -->
@@ -24,7 +24,7 @@
 	</ul>
 </div>
 
-<div class="slide">
+<div class="slide section">
 	<h4>Commonly used attributes</h4>
 	<ul class="build no-bullet">
 		<li>
@@ -46,13 +46,13 @@
 &lt;img <strong>src="images/coyboy.jpg" alt="Cowboy" width="202" height="201"</strong> />
 </pre>
 		</li>
-		
+
 	</ul>
 </div>
 
 
 
-<div class="slide">
+<div class="slide section">
 	<h4>What every page needs</h4>
 	<ul class="no-bullet">
 		<li>
@@ -73,7 +73,7 @@
 </div>
 
 <!-- doctype -->
-<div class="slide">
+<div class="slide section">
 	<h4>Document type declaration</h4>
 	<ul class="build">
 		<li><strong>A Document Type Declaration</strong>, or <strong>DOCTYPE</strong>, is an instruction that tells the browser what kind of document it is rendering.</li>
@@ -87,7 +87,7 @@
 </div>
 
 <!-- types of tags -->
-<div class="slide">
+<div class="slide section">
 	<h4>Types of tags</h4>
 	<ul class="">
 		<li>Tags can define the general page structure</li>
@@ -146,7 +146,7 @@
     </nav>
 </footer></pre>
 		</li>
-	</ul>	
+	</ul>
 <?php include('demo_inline.php'); ?>
 </div>
 

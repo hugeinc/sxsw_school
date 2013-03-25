@@ -1,4 +1,4 @@
-<div class="slide">
+<div class="slide section">
 	<h4>Specificity</h4>
 	<p>When more than one CSS rule sets a given style property for an element, the most <em>specific</em> rule will be applied for that propery.</p>
 	<ul class="build no-bullet">

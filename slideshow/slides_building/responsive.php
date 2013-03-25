@@ -1,5 +1,5 @@
-<div class="slide black invert">
-	<h1 class="v-center white">Responsive!</h1>	
+<div class="slide black invert section">
+	<h1 class="v-center white">Responsive!</h1>
 </div>
 
 <div class="slide">
@@ -39,7 +39,7 @@ header {
 	<h4>Our larger breakpoint.</h4>
 	<p>Take the responsive stuff you've already done and stick it in responsive.css.</p>
 	<p>We are also going to scale some content (vs static widths) in order to work on smaller tablets.</p>
-<pre>			
+<pre>
 #content,
 #menu-food,
 #google-maps {
@@ -53,7 +53,7 @@ header {
 </div>
 
 <div class="slide">
-<pre>	
+<pre>
 /* Update nav and header for smaller screens */
 nav {
 	margin: 20px auto 20px;
@@ -62,7 +62,7 @@ nav {
 nav li a {
 	font-size: 12px;
 }
-	
+
 </pre>
 </div>
 
@@ -154,7 +154,7 @@ nav li a {
 @media screen and (max-width: 480px) {
 
 	/* all css goes here!*/
-	
+
 }
 </pre>
 </div>
@@ -191,7 +191,7 @@ nav li a {
 </div>
 
 <div class="slide">
-<pre>	
+<pre>
 #address h3 {
 	background: none;
 	height: auto;
@@ -206,7 +206,7 @@ nav li a {
 	color: #bc0505;
 	line-height: 34px;
 	text-align: center;
-	
+
 }
 </pre>
 </div>
@@ -216,7 +216,7 @@ nav li a {
 #address a {
 	width: 130px;
 	margin: 7px;
-	
+
 }
 .user-text {
 	-moz-column-count: 1; /* Firefox */

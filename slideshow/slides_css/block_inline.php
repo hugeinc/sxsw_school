@@ -1,4 +1,4 @@
-<div class="slide">
+<div class="slide section">
 	<h4>CSS - display</h4>
 	<p>The <strong>display</strong> property is used to define how boxes are generated for an element. </p>
 	<p>3 common properties:</p>

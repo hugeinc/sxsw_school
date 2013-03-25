@@ -1,11 +1,11 @@
 		<style type="text/css">
                 table li {
                     font-size:.5em;}
-                
+
                 td {width: 25%;}
-            </style>		
-		
-		<div class="slide">
+            </style>
+
+		<div class="slide section">
 			<h4>Image File Types</h4>
 
 			<table border="0" bordercolor="#FFFFFF" style="background-color:#FFFFFF" width="100%" cellpadding="3" cellspacing="3">
@@ -28,7 +28,7 @@
 					<td><ul>
 							<li><strong>Good for</strong> photographs</li>
 							<li>Millions of colors</li>
-							<li>No transparency</li>						
+							<li>No transparency</li>
 						</ul></td>
 
 					<td><ul>
@@ -38,7 +38,7 @@
 							<li>Aliased transparency</li>
 							<li>No Animation</li>
 							<li>Some older browsers don't support PNG</li>						</ul></td>
-	
+
 					<td><ul>
 							<li><strong>Good for</strong> images using drop shadows or glows, and/or require transparency</li>
 							<li>Millions of colors</li>
@@ -49,5 +49,5 @@
 							<li>Some older browsers don't support PNG</li>						</ul></td>
 				</tr>
 			</table>
-			
+
 		</div>

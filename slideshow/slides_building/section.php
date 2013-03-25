@@ -1,5 +1,5 @@
-<div class="slide black invert">
-	<h1 class="v-center white">Building the site out.</h1>	
+<div class="slide black invert section">
+	<h1 class="v-center white">Building the site out.</h1>
 </div>
 
 
@@ -47,7 +47,7 @@ li {
 	ipsum dolor s...
 	</div>
 	<img src="images/cowboy.jpg" alt="Cowboy" width="202" height="201" />
-</section>	
+</section>
 </pre>
 </div>
 
@@ -74,7 +74,7 @@ li {
 	font-size: 26px;
 	color: #333;
 	padding-top: 165px;
-}	
+}
 </pre>
 </div>
 
@@ -99,11 +99,11 @@ li {
 .user-text {
 	float: left;
 	width: 670px;
-	
+
 	-moz-column-count: 2; /* Firefox */
 	-webkit-column-count: 2; /* Safari and Chrome */
 	column-count: 2;
-	
+
 	-moz-column-gap: 30px; /* Firefox */
 	-webkit-column-gap: 30px; /* Safari and Chrome */
 	column-gap: 30px;
@@ -202,7 +202,7 @@ li {
 
 .menu ul {
 	margin: 0 0 50px;
-}	
+}
 </pre>
 </div>
 

@@ -1,4 +1,4 @@
-		<div class="slide">
+		<div class="slide section">
 			<h4>What is slicing?</h4>
 
 			<ul class="build">

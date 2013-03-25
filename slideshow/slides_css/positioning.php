@@ -1,4 +1,4 @@
-<div class="slide">
+<div class="slide section">
   <h4>Positioning CSS</h4>
   <p>The CSS positioning properties allow you to position an element. It can also place an element behind another, and specify what should happen when an element's content is too big. There are four different positioning methods.</p>
   <ul class="build">

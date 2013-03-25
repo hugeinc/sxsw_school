@@ -1,5 +1,5 @@
 
-<div class="slide">
+<div class="slide section">
 	<h4>Google Maps.</h4>
 	<p>We are going to be integrating a full-width google map (with javascript!).  For now, let's just work on the style.</p>
 <pre>
@@ -29,7 +29,7 @@
 	left: 0;
 	width: 100%;
 	height: 450px;
-}	
+}
 </pre>
 </div>
 
@@ -48,7 +48,7 @@
 	-webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.2);
 	box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.2);
 	font-size: 14px;
-}	
+}
 </pre>
 </div>
 

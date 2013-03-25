@@ -1,4 +1,4 @@
-		<div class="slide">
+		<div class="slide section">
 			<h4>Slicing How-To:</h4>
 
 			<ol class="build">

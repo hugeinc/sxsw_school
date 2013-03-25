@@ -1,4 +1,4 @@
-<div class="slide">
+<div class="slide section">
 	<h4>What is CSS?</h4>
 	<ul class="build">
 		<li>Stands for Cascading Style Sheets</li>
@@ -8,7 +8,7 @@
 </div>
 
 
-<div class="slide">
+<div class="slide section">
 	<h4>CSS - <small>Basic Syntax</small></h4>
 	<ul class="build no-bullet">
 		<li>
@@ -27,7 +27,7 @@ selector {property-name: value;property2: value;}</pre>
 	</ul>
 </div>
 
-<div class="slide">
+<div class="slide section">
 	<h4>Including CSS</h4>
 	<ul class="build">
 		<li>Inline <small>:(</small> </li>

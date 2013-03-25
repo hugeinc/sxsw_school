@@ -1,4 +1,4 @@
-		<div class="slide">
+		<div class="slide section">
 			<h4>Saving to the /images folder...</h4>
 
 			<ol class="build">
@@ -16,11 +16,10 @@
 				<li><strong>No symbols!</strong> Letters, numbers, dashes, & underscores&nbsp;only.
 				<li>Make file names descriptive, using keyword-rich words.</li>
 			</ol>
-			
-		</div>
-		
-	
-		
-		
 
-		
+		</div>
+
+
+
+
+

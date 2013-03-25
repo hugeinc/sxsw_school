@@ -1,9 +1,9 @@
-		<div class="slide">
-			<h4>Forms</h4>
+<div class="slide section">
+	<h4>Forms</h4>
 
-			<p>
-			Forms are what submits user entered data back to the webserver.
-			</p>
+	<p>
+		Forms are what submits user entered data back to the webserver.
+	</p>
 
 <pre>
 <form>
@@ -23,5 +23,5 @@
 	</fieldset>
 </form>
 
-			
-		</div>
+
+</div>

@@ -129,7 +129,7 @@
 ----------------------------------------------------------------------------------------------- */
 ?>
 
-		<div class="slide magenta invert white-border">
+		<div class="slide magenta invert white-border section">
 			<h1 class="v-center bigger white">Slicing.</h1>
 		</div>
 
