@@ -1,8 +1,8 @@
 
-		<div class="slide black invert">
+		<div class="slide black invert section">
 			<h1 class="v-center white">Doing stuff with data.</h1>
 		</div>
-		
+
 		<div class="slide">
 			<h4>Operators.</h4>
 			<p>Similar to math operands, operators let you "assign" values, add, subtract, etc.</p>
@@ -25,7 +25,7 @@
 			<h5>==</h5>
 			<p>Equality.  If two values, variables, or objects are equivalent.</p>
 		</div>
-		
+
 		<div class="slide">
 			<h5>!</h5>
 			<p>Not.  For testing conditionals.</p>

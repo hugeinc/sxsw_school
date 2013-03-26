@@ -1,5 +1,5 @@
 /**
- 
+
  All your styles belong here.
 
 */
@@ -75,3 +75,19 @@ h1.v-center {
 .slides.template-huge > .slide.black {
 	background-color:#000;
 }
+
+.menu-container {
+	display: none;
+	background-color: #ffffff;
+	font-family:'HUGEAvantGardeBold', arial, sans-serif;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	z-index: 100000;
+}
+	.fast-nav { position: absolute; top: 50px; left: 50px; }
+		.fast-nav a { display: block; color: #000; margin: 0 0 20px; font-size: 30px; text-decoration: none; text-transform: uppercase; }
+	ul.menu { list-style-type: none; margin: 50px 0; }
+		ul.menu li { text-align: center; }
+			ul.menu li a { color: #ED228E; text-decoration: none; }

@@ -33,14 +33,6 @@ section,
 	margin: 0 auto;
 }
 
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-}
 ul {
 	padding: 0;
 	margin: 0;
@@ -49,7 +41,10 @@ li {
 	list-style: none;
 }
 
-
+a,
+a:visited {
+	color: #1a1a1a;
+}
 
 
 
@@ -136,6 +131,11 @@ h1 span {
 	color: #d2d2d2;
 }
 
+#content img {
+	margin-left: 30px;
+	float: right;
+}
+
 .user-text {
 	float: left;
 	width: 670px;
@@ -149,10 +149,6 @@ h1 span {
 	column-gap: 30px;
 }
 
-#content img {
-	margin-left: 30px;
-	float: right;
-}
 
 
 

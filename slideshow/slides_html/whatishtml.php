@@ -1,4 +1,4 @@
-<div class="slide">
+<div class="slide section">
 	<h4>What is HTML?</h4>
 
 	<ul class="build">
@@ -14,7 +14,4 @@
 
 <div class="slide">
 	<h1>Holden's Hog Tie</h1>
-
-	
-
 </div>

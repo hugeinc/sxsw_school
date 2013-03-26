@@ -1,4 +1,4 @@
-		<div class="slide">
+		<div class="slide section">
 			<h4>Most common form input types</h4>
 			<style type="text/css">
 				.build label {

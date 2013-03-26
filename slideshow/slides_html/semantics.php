@@ -1,4 +1,4 @@
-<div class="slide black invert">
+<div class="slide black invert section">
 	<h1 class="v-center bigger white">Semantic Markup.</h1>
 </div>
 		<div class="slide">
@@ -21,5 +21,5 @@
 <p>Paragraph of text</p>
 <p>Another paragraph of text</p>
 </pre>
-			
+
 		</div>

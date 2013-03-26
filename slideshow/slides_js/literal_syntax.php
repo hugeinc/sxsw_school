@@ -1,4 +1,4 @@
-<div class="slide invert black">
+<div class="slide invert black section">
 	<h1 class="white">Literal Syntax.</h1>
 </div>
 
@@ -35,7 +35,7 @@ object["sum"](1, 2);
 
 </div>
 <div class="slide">
-	<p>A full Object Literal Syntax example.</p> 
+	<p>A full Object Literal Syntax example.</p>
 			<pre class="full">
 var DEMO = DEMO || {};
 DEMO.global = {
@@ -54,6 +54,30 @@ DEMO.global = {
 window.onload = function () {
     DEMO.global.init();
 };
+			</pre>
+
+</div>
+<div class="slide">
+	<p>Literal vs. Classic</p>
+			<pre class="full">
+var candies = new Array();
+candies.push('Snickers', 'Butterfinger', 'Twix');
+var goodies = ['Munchos', 'Funyons', 'Cheetos']; //literal
+console.log(candies);
+console.log(goodies);
+var kitten = new Object();
+kitten.meow = function() { alert('meow'); };
+kitten.monthsOld = 4;
+var puppy = {
+        bark: function() {
+                alert('yap');
+        },
+        monthsOld: 6
+}
+kitten.meow();
+puppy.bark();
+console.log(kitten);
+console.log(puppy);
 			</pre>
 
 </div>

@@ -1,9 +1,9 @@
-<div class="slide image">
-	<img src="images/html-console.png" width="900" />
+<div class="slide black section">
+	<h1 class="white">Selectors and Properties</h1>
 </div>
 
-<div class="slide black">
-	<h1 class="white">Selectors and Properties</h1>
+<div class="slide image">
+	<img src="images/html-console.png" width="900" />
 </div>
 
 <div class="slide">
@@ -12,7 +12,7 @@
 &lt;head>
      ...
      &lt;style type="text/css">
-          /* This is a comment 
+          /* This is a comment
           for an h1 style */
           h1 {
           	color: red;
@@ -21,11 +21,6 @@
 &lt;/head>
  </pre>
 <?php include('demo_inline.php') ?>
-</div>
-
-
-<div class="slide">
-	Basic Selectors
 </div>
 
 <div class="slide black invert">
@@ -45,8 +40,8 @@ h4 {
 	<h2>This will be red</h2>
 	<h4>This will be blue</h4>
 	<h2>This will also be red</h2>
-	<h4>This will also be blue</h4>	
-</pre>	
+	<h4>This will also be blue</h4>
+</pre>
 	<p>The above css would make the text of every h2 tag red and every h4 tag blue </p>
 </div>
 
@@ -90,12 +85,12 @@ h4 {
 .red-text {
      color: red;
 }
-.silly-text {
-	font-size: 10px;
+.big-text {
+	font-size: 40px;
 }
 		<h2 class="sub-header">This text will be big</h2>
 		<p class="red-text">This text will be red</p>
-		<p class="red-text silly-text">This text will be small AND red</p>
+		<p class="red-text big-text">This text will be big AND red</p>
 	</pre>
 <?php include('demo_inline.php') ?>
 </div>
@@ -129,7 +124,7 @@ p[title="waffles"] {
 p[title~="chicken"] {
 	color: blue
 }
-	<p>This text will be black</p>	
+	<p>This text will be black</p>
 	<p title="waffles">This text will be black</p>
 	<p title="waffles chicken">This text will be blue</p>
 </div>
@@ -137,10 +132,10 @@ p[title~="chicken"] {
 
 <div class="slide">
 	<h4>Descendant - <strong>Ancestor1 [Ancestor2...] Target</strong>.</h4>
-	<p>Using a descendant is actually using multiple selectors where the last selector, the element to be styled, is 
+	<p>Using a descendant is actually using multiple selectors where the last selector, the element to be styled, is
 		a descendant of all the selectors before it.</p>
 	<pre>
-#address p .city {	
+#address p .city {
 	color: silver;
 }
 .pork li {
@@ -150,9 +145,9 @@ p[title~="chicken"] {
 </div>
 
 <div class="slide">
-	<h4>Descendant cont.</h4>	
+	<h4>Descendant cont.</h4>
 	<pre>
-#address p .city {	
+#address p .city {
 	color: silver;
 }
 <div id="address" >
@@ -162,11 +157,11 @@ p[title~="chicken"] {
 		<span class="city" >This text will be silver</span>
 			This text will be black
 	</p>
-</div>	
+</div>
 	</pre>
 </div>
 <div class="slide">
-	<h4>Descendant cont.</h4>	
+	<h4>Descendant cont.</h4>
 	<pre>
 .pork li {
 	color: salmon;
@@ -185,7 +180,7 @@ p[title~="chicken"] {
 </div>
 <!-- <div class="slide">
 	<h4>Child - <strong> > </strong></h4>
-	<p> 
+	<p>
 
 </div>
 <div class="slide">
@@ -209,7 +204,4 @@ p[title~="chicken"] {
 
 </div> -->
 
-<div class="slide">
-	<h4>More Information</h4>
-http://www.w3.org/TR/selectors/#selectors
-</div>
+

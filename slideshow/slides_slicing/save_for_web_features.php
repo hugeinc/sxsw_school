@@ -1,4 +1,4 @@
-		<div class="slide">
+		<div class="slide section">
 			<h4>How can Save For Web... help with image optimization?</h4>
 
 			<ul class="build">
@@ -7,11 +7,10 @@
 				<li>Compare image compression</li>
 				<li>Resize image</li>
 			</ul>
-			
-		</div>
-		
-	
-		
-		
 
-		
+		</div>
+
+
+
+
+

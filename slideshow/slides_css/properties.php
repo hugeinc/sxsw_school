@@ -1,10 +1,16 @@
+
+
+<div class="slide black">
+	<h1 class="white">CSS Properties</h1>
+</div>
+
 <div class="slide">
   <h4>Including CSS - <small>External/Linked</small></h4>
   <pre class="structure">
 &lt;head>
     ...
-    &lt;link type="style/css" href="css/reset.css" />
-    &lt;link type="style/css" href="css/global.css" />
+    &lt;link rel="stylesheet" type="text/css" href="css/reset.css" />
+    &lt;link rel="stylesheet" type="text/css" href="css/global.css" />
     ...
 &lt;/head>
 </pre>
@@ -13,10 +19,6 @@
     <li>Copy your css rule from your internal css into global.css</li>
   </ul>
 <?php include('demo_inline.php') ?>
-</div>
-
-<div class="slide black">
-	<h1 class="white">CSS Properties</h1>
 </div>
 
 <div class="slide">
