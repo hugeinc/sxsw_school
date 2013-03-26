@@ -20,6 +20,7 @@
 </head>
 
 <body class="hidden">
+	<div class="menu-container"><ul class="menu no-bullet"></ul></div>
 	
 	<div class="slides layout-regular template-huge">
 		
